@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class RandomChar : MonoBehaviour {
 
-	private string chr = "あいうえおかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱtぴぷぺぽまみむめもやゆよらりるれろわをん" +
+	private string chr = "あいうえおかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱぴぷぺぽまみむめもやゆよらりるれろわをん" +
 		"アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ";
 	private char[] characters;
 	private Text actualChar;

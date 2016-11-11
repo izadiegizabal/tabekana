@@ -60,10 +60,7 @@
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\ConditionArea.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\ConditionCollision.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\ConditionKeyPress.cs" />
-     <Compile Include="Assets\PlayGroundAssets\Scripts\Creation\AutoObjectSpawner.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Creation\ObjectShooter.cs" />
-     <Compile Include="Assets\PlayGroundAssets\Scripts\Destruction\TimedSelfDestruct.cs" />
-     <Compile Include="Assets\PlayGroundAssets\Scripts\Movement\AutoMove.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Movement\AutoMoveTowardsPlayer.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Movement\AutoRotation.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Movement\CameraFollow.cs" />
@@ -80,8 +77,10 @@
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\User Interface\UIScript.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Utilities\Enums.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Utilities\Utils.cs" />
-     <Compile Include="Assets\Scripts\KeyboardReaction.cs" />
+     <Compile Include="Assets\Scripts\AutoMove.cs" />
+     <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
+     <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
@@ -95,25 +94,25 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Common">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
  </Reference>
  <Reference Include="Editor">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
  </Reference>
  <Reference Include="Security">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
  </Reference>
  <Reference Include="Stores">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
  </Reference>
  <Reference Include="Apple">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
  </Reference>
  <Reference Include="Tizen">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
  </Reference>
  <Reference Include="winrt">
- <HintPath>/Volumes/Datuak/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

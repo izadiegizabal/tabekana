@@ -16,10 +16,12 @@ public class AutoObjectSpawner : MonoBehaviour
 	public float spawnInterval = 1;
 
 	private BoxCollider2D boxCollider2D;
+	private Transform trans;
 
 	void Start ()
 	{
 		boxCollider2D = GetComponent<BoxCollider2D>();
+		trans = GetComponent<Transform>();
 
 		StartCoroutine(SpawnObject());
 	}
@@ -36,6 +38,7 @@ public class AutoObjectSpawner : MonoBehaviour
 			// Generate the new object
 			GameObject newObject = Instantiate<GameObject>(prefabToSpawn);
 			newObject.transform.position = new Vector2(randomX + this.transform.position.x, randomY + this.transform.position.y);
+			newObject.transform.SetParent(trans);
 
 			// Wait for some time before spawning another object
 			yield return new WaitForSeconds(spawnInterval);
