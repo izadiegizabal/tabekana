@@ -18,6 +18,6 @@ public class AutoRotation : Physics2DObject
 		currentRotation += .02f * rotationSpeed * 10f;
 
 		// Apply the rotation to the Rigidbody2d
-		rigidbody2D.MoveRotation(currentRotation);
+		GetComponent<Rigidbody2D>().MoveRotation(currentRotation);
 	}
 }

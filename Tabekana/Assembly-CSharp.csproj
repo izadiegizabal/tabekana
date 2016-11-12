@@ -54,7 +54,6 @@
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\ConsumeResourceAction.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\CreateObjectAction.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\DestroyAction.cs" />
-     <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\LoadLevelAction.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\OnOffAction.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\Actions\TeleportAction.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\Conditions\ConditionArea.cs" />
@@ -79,6 +78,7 @@
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Utilities\Utils.cs" />
      <Compile Include="Assets\Scripts\AutoMove.cs" />
      <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
+     <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
      <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
  <Reference Include="UnityEngine.Networking">

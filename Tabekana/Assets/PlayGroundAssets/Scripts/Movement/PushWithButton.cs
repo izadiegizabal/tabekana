@@ -45,11 +45,11 @@ public class PushWithButton : Physics2DObject
 			//Apply the push
 			if(relativeAxis)
 			{
-				rigidbody2D.AddRelativeForce(pushVector);
+				GetComponent<Rigidbody2D>().AddRelativeForce(pushVector);
 			}
 			else
 			{
-				rigidbody2D.AddForce(pushVector);
+				GetComponent<Rigidbody2D>().AddForce(pushVector);
 			}
 		}
 	}

@@ -1,9 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeyboardReaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadLevelAction.cs">
     <Files>
-      <File FileName="Assets/Scripts/KeyboardReaction.cs" Line="13" Column="32" />
-      <File FileName="Assets/Scripts/RandomChar.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/LoadLevelAction.cs" Line="7" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

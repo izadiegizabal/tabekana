@@ -50,14 +50,6 @@
      <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPButton.cs" />
      <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
      <Compile Include="Assets\Plugins\UnityPurchasing\script\UnibillDemo.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

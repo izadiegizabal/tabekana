@@ -33,6 +33,6 @@ public class RotateWithArrows : Physics2DObject
 	void FixedUpdate ()
 	{
 		// Apply the torque to the Rigidbody2D
-		rigidbody2D.AddTorque(-spin * speed);
+		GetComponent<Rigidbody2D>().AddTorque(-spin * speed);
 	}
 }

@@ -56,12 +56,12 @@
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\ConsumeResourceActionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\CreateObjectActionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\DestroyActionInspector.cs" />
-     <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\LoadLevelActionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\OnOffActionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\Actions\TeleportActionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\ConditionAreaInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\ConditionCollisionInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Conditions\ConditionKeyPressInspector.cs" />
+     <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Creation\AutoObjectSpawnerInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Creation\ObjectShooterInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Destruction\ModifyHealthAttributeInspector.cs" />
      <Compile Include="Assets\PlayGroundAssets\Scripts\_DONT_USE_\Editor\Destruction\TimedSelfDestructInspector.cs" />

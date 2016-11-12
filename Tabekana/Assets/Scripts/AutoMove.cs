@@ -23,11 +23,11 @@ public class AutoMove : Physics2DObject
 
 		if(relative)
 		{
-			rigidbody2D.AddRelativeForce(new Vector2(directionAndStrength.x, directionAndStrength.y) * 2f);
+			GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(directionAndStrength.x, directionAndStrength.y) * 2f);
 		}
 		else
 		{
-			rigidbody2D.AddForce(new Vector2(directionAndStrength.x, directionAndStrength.y) * 2f);
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(directionAndStrength.x, directionAndStrength.y) * 2f);
 		}
 	}
 }

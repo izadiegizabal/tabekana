@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 5bfe5647180ad4eeaa33aeaf5ce0d82d
+timeCreated: 1478907721
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HiraganaBase_wOnigiri_0
+    21300002: HiraganaBase_wOnigiri_1
+    21300004: HiraganaBase_wOnigiri_2
+    21300006: HiraganaBase_wOnigiri_3
+    21300008: HiraganaBase_wOnigiri_4
+    21300010: HiraganaBase_wOnigiri_5
+    21300012: HiraganaBase_wOnigiri_6
+    21300014: HiraganaBase_wOnigiri_7
+    21300016: HiraganaBase_wOnigiri_8
+    21300018: HiraganaBase_wOnigiri_9
+    21300020: HiraganaBase_wOnigiri_10
+    21300022: HiraganaBase_wOnigiri_11
+    21300024: HiraganaBase_wOnigiri_12
+    21300026: HiraganaBase_wOnigiri_13
+    21300028: HiraganaBase_wOnigiri_14
+    21300030: HiraganaBase_wOnigiri_15
+    21300032: HiraganaBase_wOnigiri_16
+    21300034: HiraganaBase_wOnigiri_17
+    21300036: HiraganaBase_wOnigiri_18
+    21300038: HiraganaBase_wOnigiri_19
+    21300040: HiraganaBase_wOnigiri_20
+    21300042: HiraganaBase_wOnigiri_21
+    21300044: HiraganaBase_wOnigiri_22
+    21300046: HiraganaBase_wOnigiri_23
+    21300048: HiraganaBase_wOnigiri_24
+    21300050: HiraganaBase_wOnigiri_25
+    21300052: HiraganaBase_wOnigiri_26
+    21300054: HiraganaBase_wOnigiri_27
+    21300056: HiraganaBase_wOnigiri_28
+    21300058: HiraganaBase_wOnigiri_29
+    21300060: HiraganaBase_wOnigiri_30
+    21300062: HiraganaBase_wOnigiri_31
+    21300064: HiraganaBase_wOnigiri_32
+    21300066: HiraganaBase_wOnigiri_33
+    21300068: HiraganaBase_wOnigiri_34
+    21300070: HiraganaBase_wOnigiri_35
+    21300072: HiraganaBase_wOnigiri_36
+    21300074: HiraganaBase_wOnigiri_37
+    21300076: HiraganaBase_wOnigiri_38
+    21300078: HiraganaBase_wOnigiri_39
+    21300080: HiraganaBase_wOnigiri_40
+    21300082: HiraganaBase_wOnigiri_41
+    21300084: HiraganaBase_wOnigiri_42
+    21300086: HiraganaBase_wOnigiri_43
+    21300088: HiraganaBase_wOnigiri_44
+    21300090: HiraganaBase_wOnigiri_45
+    21300092: HiraganaBase_wOnigiri_46
+    21300094: HiraganaBase_wOnigiri_47
+    21300096: HiraganaBase_wOnigiri_48
+    21300098: HiraganaBase_wOnigiri_49
+    21300100: HiraganaBase_wOnigiri_50
+    21300102: HiraganaBase_wOnigiri_51
+    21300104: HiraganaBase_wOnigiri_52
+    21300106: HiraganaBase_wOnigiri_53
+    21300108: HiraganaBase_wOnigiri_54
+    21300110: HiraganaBase_wOnigiri_55
+    21300112: HiraganaBase_wOnigiri_56
+    21300114: HiraganaBase_wOnigiri_57
+    21300116: HiraganaBase_wOnigiri_58
+    21300118: HiraganaBase_wOnigiri_59
+    21300120: HiraganaBase_wOnigiri_60
+    21300122: HiraganaBase_wOnigiri_61
+    21300124: HiraganaBase_wOnigiri_62
+    21300126: HiraganaBase_wOnigiri_63
+    21300128: HiraganaBase_wOnigiri_64
+    21300130: HiraganaBase_wOnigiri_65
+    21300132: HiraganaBase_wOnigiri_66
+    21300134: HiraganaBase_wOnigiri_67
+    21300136: HiraganaBase_wOnigiri_68
+    21300138: HiraganaBase_wOnigiri_69
+    21300140: HiraganaBase_wOnigiri_70
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 856
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 880
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 880
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 857
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_4
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 861
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 856
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 874
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 862
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 872
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_9
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 862
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 738
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 736
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 744
+        width: 92
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 734
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 743
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_15
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 747
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_16
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 741
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_17
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 745
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 739
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_19
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 735
+        width: 94
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 614
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 611
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_22
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 623
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 611
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 623
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 623
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 618
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_27
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 627
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_28
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 627
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_29
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 617
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 494
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 489
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 485
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 508
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_36
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 492
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_37
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 505
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_38
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 505
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_39
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 491
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 368
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 376
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 376
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_43
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 366
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_44
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 361
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_45
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 373
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_46
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 383
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_47
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 366
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_48
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 375
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_49
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 365
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 244
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 257
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 257
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_53
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 243
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_54
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 252
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_55
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 242
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_56
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 247
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_57
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 242
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_58
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 246
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_59
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 240
+        width: 93
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 135
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_61
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 118
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_62
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 114
+        width: 92
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_63
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 117
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_64
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 115
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_65
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 127
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_66
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 125
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_67
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 125
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_68
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 132
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_69
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 127
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HiraganaBase_wOnigiri_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 92
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

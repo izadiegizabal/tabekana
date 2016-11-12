@@ -29,7 +29,7 @@ public class AutoMoveTowardsPlayer : Physics2DObject
 	void FixedUpdate ()
 	{
 		//Move towards the player
-		rigidbody2D.MovePosition(Vector2.Lerp(transform.position, playerTransform.position, Time.fixedDeltaTime * speed));
+		GetComponent<Rigidbody2D>().MovePosition(Vector2.Lerp(transform.position, playerTransform.position, Time.fixedDeltaTime * speed));
 
 		//look towards the player
 		if(lookAtPlayer)

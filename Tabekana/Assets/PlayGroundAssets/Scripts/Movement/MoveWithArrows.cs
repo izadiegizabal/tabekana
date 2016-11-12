@@ -67,6 +67,6 @@ public class MoveWithArrows : Physics2DObject
 	void FixedUpdate ()
 	{
 		// Apply the force to the Rigidbody2d
-		rigidbody2D.AddForce(movement * speed * 10f);
+		GetComponent<Rigidbody2D>().AddForce(movement * speed * 10f);
 	}
 }
