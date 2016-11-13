@@ -1,2 +1,0 @@
-int id webview 0x7f030000
-int layout act_webview 0x7f020000

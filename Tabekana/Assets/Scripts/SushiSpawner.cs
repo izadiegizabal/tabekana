@@ -38,6 +38,6 @@ public class SushiSpawner : MonoBehaviour {
 		RandomSushi comp = go.GetComponent<RandomSushi>();
 		comp.simple = simpleSprite;
 		comp.composed = composedSprite;
-		comp.level = this.level;
+		comp.level = level;
 	}
 }
