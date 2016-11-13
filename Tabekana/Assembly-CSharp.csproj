@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\AutoMove.cs" />
      <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\Explode.cs" />
+     <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
      <Compile Include="Assets\Scripts\RandomSprite.cs" />
