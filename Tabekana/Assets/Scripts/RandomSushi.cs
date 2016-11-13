@@ -12,8 +12,8 @@ public class RandomSushi : MonoBehaviour {
 	private int untilWhat;
 	private int levelSushi = 5;
 	// Use this for initialization
+
 	void Start () {
-		Debug.Log(System.Environment.Version);
 		if (simple != null) {
 			if (composed != null){
 				Sprite[] simpleSushi = Resources.LoadAll<Sprite> (simple);
@@ -115,15 +115,5 @@ public class RandomSushi : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	}
-
-	public void setSimpleSprite(string sprite){
-		simple = sprite;
-	}
-	public void setComposedSprite(string sprite){
-		composed = sprite;
-	}
-	public void setLevel(int lv){
-		level = lv;
 	}
 }

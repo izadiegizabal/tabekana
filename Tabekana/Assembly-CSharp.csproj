@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\RandomSprite.cs" />
      <Compile Include="Assets\Scripts\RandomSushi.cs" />
      <Compile Include="Assets\Scripts\Rice.cs" />
+     <Compile Include="Assets\Scripts\SushiSpawner.cs" />
      <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
