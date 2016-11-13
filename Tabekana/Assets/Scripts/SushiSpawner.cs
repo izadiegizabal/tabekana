@@ -33,6 +33,7 @@ public class SushiSpawner : MonoBehaviour {
 
 		// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
 		GameObject go = (GameObject) Instantiate (sushi, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+		spawnedSushi++;
 		RandomSushi comp = go.GetComponent<RandomSushi>();
 		comp.simple = simpleSprite;
 		comp.composed = composedSprite;
