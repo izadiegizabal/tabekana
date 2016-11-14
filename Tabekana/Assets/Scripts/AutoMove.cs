@@ -2,8 +2,16 @@ using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class AutoMove : Physics2DObject
+public class AutoMove : MonoBehaviour
 {
+	[HideInInspector]
+	public new Rigidbody2D rigidbody2D;
+
+	void Awake ()
+	{
+		rigidbody2D = GetComponent<Rigidbody2D>();
+	}
+
 	// These are the forces that will push the object every frame
 	// don't forget they can be negative too!
 	private Vector2  directionAndStrength;// = new Vector2(1f, 0f);
