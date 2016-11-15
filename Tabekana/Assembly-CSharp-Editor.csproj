@@ -138,6 +138,9 @@
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
+ <Reference Include="Ionic.Zip">
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/MaterialUI/Utils/Editor/UnityZip/Ionic.Zip.dll</HintPath>
+ </Reference>
  <Reference Include="Common">
  <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
  </Reference>
@@ -170,9 +173,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Ionic.Zip">
- <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/MaterialUI/Utils/Editor/UnityZip/Ionic.Zip.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
