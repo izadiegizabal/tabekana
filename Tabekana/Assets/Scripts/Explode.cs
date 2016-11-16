@@ -3,7 +3,9 @@ using System.Collections;
 
 public class Explode : MonoBehaviour {
 
+	//We add the prefab that we'll be using as the parts that will appear in the explossion
 	public Rice rice;
+	//The number of parts that'll appear
 	public int totalParts = 10;
 
 
@@ -18,6 +20,7 @@ public class Explode : MonoBehaviour {
 
 	}
 
+	//When trigger or collission change to appropiate animation that uses the Destroy method
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "Shuriken") {
 			animator.SetInteger ("AnimState", 1);
@@ -33,12 +36,15 @@ public class Explode : MonoBehaviour {
 	}
 
 
+	//When called
 	public void Destroy(){
-	
+
+		//Destroy the object
 		Destroy (gameObject);
 
 		var t = transform;
 
+		//Create "totalParts" "rice pieces" in random directions and w/ random forces
 		for (int i = 0; i < totalParts; i++) {
 			Rice clone = Instantiate(rice, t.position, Quaternion.identity) as Rice;
 			clone.GetComponent<Rigidbody2D>().AddForce(Vector3.right * (Random.Range (-100, 100)));

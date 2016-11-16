@@ -174,7 +174,6 @@
      <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
-     <Compile Include="Assets\Scripts\RandomSprite.cs" />
      <Compile Include="Assets\Scripts\RandomSushi.cs" />
      <Compile Include="Assets\Scripts\Rice.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />

@@ -13,8 +13,12 @@ public class GoBack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		//If we are on Android
 		if (Application.platform == RuntimePlatform.Android) {
+			//And we press the back button
 			if (Input.GetKey (KeyCode.Escape)) {
+				//Go to the specified scene (the previous one)
 				SceneManager.LoadScene (sceneName, LoadSceneMode.Single);
 				return;
 			}
