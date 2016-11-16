@@ -1,0 +1,171 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'
+-r:'Assets/MaterialUI/Utils/Editor/UnityZip/Ionic.Zip.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Common.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Editor.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Security.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Stores.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll'
+-r:'Assets/Plugins/UnityPurchasing/winrt/winrt.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_2
+-define:UNITY_5_4
+-define:UNITY_5
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_DUCK_TYPING
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+'Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/CircularProgressIndicatorEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/DragEventSenderEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/EasyTweenEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/LinearProgressIndicatorEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialAppBarEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialBaseEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialButtonEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialCheckboxEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialDropdownEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialInputFieldEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialRadioEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialRippleEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialScreenEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialSliderEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialSwitchEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/MaterialToggleBaseEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/RectTransformSnapEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/ScreenViewEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/ShadowGeneratorEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/TabItemEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/TabPageEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/TabViewEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/TweenManagerEditor.cs'
+'Assets/MaterialUI/Editor/Custom Inspectors/VectorImageEditor.cs'
+'Assets/MaterialUI/Editor/PostProcessors/GeneratedShadowPostProcessor.cs'
+'Assets/MaterialUI/Editor/PropertyDrawers/ImageDataPropertyDrawer.cs'
+'Assets/MaterialUI/Editor/PropertyDrawers/OptionDataListPropertyDrawer.cs'
+'Assets/MaterialUI/Editor/PropertyDrawers/RippleDataPropertyDrawer.cs'
+'Assets/MaterialUI/Editor/PropertyDrawers/VectorImageDataPropertyDrawer.cs'
+'Assets/MaterialUI/Editor/Tools/InspectorFields.cs'
+'Assets/MaterialUI/Editor/Tools/MaterialUIDataTool.cs'
+'Assets/MaterialUI/Editor/Tools/MaterialUIEditorTools.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/File/Editor/VectorImageFileParserFontastic.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/File/Editor/VectorImageFileParserFontello.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/File/Editor/VectorImageFileParserIcoMoon.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/VectorImageFontParser.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserBrandico.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserCommunityMD.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserFontAwesome.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserFontelico.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserIcoMoon.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserIonicons.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserJustVector.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserKenney.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserMapVectorImages.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserMaterialDesign.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserOpenIconic.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserOpenWebVectorImages.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserPayment.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserSocialicious.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Parser/Web/VectorImageParserWeatherVectorImages.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Sections/ImportCustomFontSection.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Sections/ImportFontParametersSection.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/Sections/ImportWebFontSection.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/VectorImageManagerWindow.cs'
+'Assets/MaterialUI/Editor/Tools/Vector Image Manager/VectorImagePickerWindow.cs'
+'Assets/MaterialUI/Utils/Editor/UnityZip/Zip.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll'

@@ -172,10 +172,12 @@
      <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\Explode.cs" />
      <Compile Include="Assets\Scripts\GoBack.cs" />
+     <Compile Include="Assets\Scripts\KeyBoard.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
      <Compile Include="Assets\Scripts\RandomSushi.cs" />
      <Compile Include="Assets\Scripts\Rice.cs" />
+     <Compile Include="Assets\Scripts\ShowInput.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
      <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
      <None Include="Assets\MaterialUI\README.txt" />
