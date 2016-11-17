@@ -15,10 +15,18 @@ public class SushiDied : MonoBehaviour {
 	}
 
 
-	void OnTriggerEnter2D(Collider2D target){
-		if (target.gameObject.tag == "Shusi") {
 
-			loadLevel(string LevelOver);
+	//Load the level with the name given as the string argument
+	public void loadLevel(string sceneName){
+		SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+	}
+
+
+
+	void OnTriggerEnter2D(Collider2D target){
+		if (target.gameObject.tag == "Sushi") {
+
+			loadLevel("LevelOver");
 		}
 
 	}
