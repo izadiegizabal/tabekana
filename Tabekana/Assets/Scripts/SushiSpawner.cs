@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SushiSpawner : MonoBehaviour {
 
@@ -19,12 +20,15 @@ public class SushiSpawner : MonoBehaviour {
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 	}
 
-
+	public void loadLevel(string sceneName){
+		SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+	}
 	void Spawn ()
 	{
 		// If we've spawned the max amount of sushis
 		if(spawnedSushi >= maxSushi)
 		{
+			loadLevel("YouWin");
 			// ... exit the function.
 			return;
 		}
