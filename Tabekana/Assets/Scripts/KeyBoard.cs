@@ -86,11 +86,40 @@ public class KeyBoard : MonoBehaviour {
 	// Funcion que escribe la letra que recibe por parametro en pantalla
 	//private static bool escribeLetra(char letra){                         <---- COMENTADO
 	private static void escribeLetra(string letra){
-		// Coges la salida que toque y haces un print de la letra
+		// Cogemos la salida que toque y hacemos un print de la letra
 
 		print (letra);
 
-		// Si ha ido bien devuelve true, si no devuelve false
-		//return comoHaIdo;                                                 <---- COMENTADO
+		//GlobalVariables.array3Characters = new string[] { "_", "_", "_" };
+
+		if (GlobalVariables.array3Characters [0] == "_") {
+			GlobalVariables.array3Characters [0] = letra;
+		} 
+		else if (GlobalVariables.array3Characters [1] == "_") {
+			GlobalVariables.array3Characters [1] = letra;
+		} 
+		else if (GlobalVariables.array3Characters [2] == "_") {
+			GlobalVariables.array3Characters [2] = letra;
+		}
+//		for (int i = 0; i < GlobalVariables.array3Characters.Length; i++) {
+//			print (GlobalVariables.array3Characters[i]);                     // <---- MUESTRA EL ARRAY EN LA CONSOLA   
+//		}
+	}
+
+	void OnGUI () {
+	//	GUILayout.Label(letra);                                               // <---- MUESTRA LA LETRA POR PANTALLA   
+	//	for (int i = 0; i < GlobalVariables.array3Characters.Length; i++) {
+	//		GUILayout.Label (GlobalVariables.array3Characters [i]);           // <---- MUESTRA EL ARRAY POR PANTALLA POR POSICIONES Y EN VERTICAL 
+	//	}
+		if (GlobalVariables.array3Characters [1] != "_") {
+			GUILayout.Label (string.Join ("", GlobalVariables.array3Characters)); // <---- MUESTRA EL ARRAY POR PANTALLA BIEN!   
+		} 
+		else {
+			//GlobalVariables.array3Characters [3] = "";   --> ERROR! 
+			GlobalVariables.array3Characters = new string [2] {GlobalVariables.array3Characters[0], GlobalVariables.array3Characters[1]};	// Lo convierte en un array de dos posiciones
+			GUILayout.Label (string.Join ("", GlobalVariables.array3Characters)); // <---- MUESTRA EL ARRAY POR PANTALLA BIEN! 
+			GlobalVariables.array3Characters = new string [3] {GlobalVariables.array3Characters[0], GlobalVariables.array3Characters[1], "_"};	// Lo deja con 3 posiciones para la siguiente vez
+		}
+
 	}
 }
