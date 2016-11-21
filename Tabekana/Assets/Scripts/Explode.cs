@@ -46,7 +46,7 @@ public class Explode : MonoBehaviour {
 
 		//Create "totalParts" "rice pieces" in random directions and w/ random forces
 		for (int i = 0; i < totalParts; i++) {
-			Rice clone = Instantiate(rice, t.position, Quaternion.identity) as Rice;
+			Rice clone = (Rice) Instantiate(rice, t.position, Quaternion.identity);
 			clone.GetComponent<Rigidbody2D>().AddForce(Vector3.right * (Random.Range (-100, 100)));
 			clone.GetComponent<Rigidbody2D>().AddForce(Vector3.up * Random.Range(75, 300));
 		}
