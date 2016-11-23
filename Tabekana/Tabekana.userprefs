@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelLoader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SushiDied.cs">
     <Files>
-      <File FileName="Assets/Artwork/Game/Leven_end.js" Line="8" Column="20" />
+      <File FileName="Assets/Scripts/SushiDied.cs" Line="35" Column="40" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LevelLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Explode.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Explode.cs" Line="40" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

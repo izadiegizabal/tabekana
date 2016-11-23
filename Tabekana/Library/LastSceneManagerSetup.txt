@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LevelStaging.unity
+- path: Assets/MaterialUI/Examples/Scenes/16 - TabView.unity
   isLoaded: 1
   isActive: 1
