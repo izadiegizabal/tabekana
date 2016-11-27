@@ -15,5 +15,5 @@ public static class GlobalVariables : object {
 
 
 	//actual learn level
-	public static int actLearnLvl = -1;
+	public static string actLearnLvl = "a -1";
 }
