@@ -12,4 +12,8 @@ public static class GlobalVariables : object {
 
 	//to know if you can launch another shuriken
 	public static bool launchPermission = true;
+
+
+	//actual learn level
+	public static int actLearnLvl = -1;
 }
