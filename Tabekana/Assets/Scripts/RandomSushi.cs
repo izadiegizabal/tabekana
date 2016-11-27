@@ -130,7 +130,11 @@ public class RandomSushi : MonoBehaviour {
 			
 			//Change the current sprite to the chosen one
 			GetComponent<SpriteRenderer> ().sprite = sprites[currentSprite];
-		}
+			//we change the name of the go
+			name = ResourceNameRomaji.ResToRomaji (sprites[currentSprite].name);
+			//we add the name of the sushi to the spawnedSushi list
+			GlobalVariables.spawnedSushi.Add (name);
+	}
 
 	// Update is called once per frame
 	void Update () {

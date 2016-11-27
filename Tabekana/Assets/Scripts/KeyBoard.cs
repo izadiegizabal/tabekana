@@ -84,22 +84,24 @@ public class KeyBoard : MonoBehaviour {
 	// Funcion que escribe la letra que recibe por parametro en pantalla
 	//private static bool escribeLetra(char letra){                         <---- COMENTADO
 	private static void escribeLetra(string letra){
-		// Cogemos la salida que toque y hacemos un print de la letra
-
-		print (letra);
-
-		//GlobalVariables.array3Characters = new string[] { "_", "_", "_" };
+		// Cogemos la salida que toque y hacemos un print de la letra (a la consola)
 
 		if (GlobalVariables.array3Characters [0] == "_") {
 			GlobalVariables.array3Characters [0] = letra;
 			GlobalVariables.array3Characters [1] = "_";
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
 		} 
 		else if (GlobalVariables.array3Characters [1] == "_") {
 			GlobalVariables.array3Characters [1] = letra;
 			GlobalVariables.array3Characters [2] = "_";
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
 		} 
 		else if (GlobalVariables.array3Characters [2] == "_") {
 			GlobalVariables.array3Characters [2] = letra;
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
 		}
 	}
 }
