@@ -1,0 +1,1 @@
+﻿using UnityEngine;using System.Collections;public class LevelChooser : MonoBehaviour{    // string level;    public void leerClic(string level)    {                // Guardo en la variable global el nivel        GlobalVariables.actLearnLvl = level;    }}
