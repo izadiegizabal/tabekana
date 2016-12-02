@@ -30,20 +30,18 @@ public class AutoShurikenSpawner : MonoBehaviour
 	
 	// This will spawn an object, and then wait until it can launch again, then spawn another...
 	void SpawnObject () {
-		// Generate the new object
-		GameObject newObject = Instantiate<GameObject> (prefabToSpawn);
-		newObject.transform.position = new Vector2 (this.transform.position.x, this.transform.position.y);
-		newObject.transform.SetParent (trans);
-
-		//Disable new spawn
-		GlobalVariables.launchPermission = false;
 		//Remove target from spawned sushi
 		GlobalVariables.spawnedSushi.Remove (target);
+
+		// Generate the new object
+		GameObject newObject = Instantiate<GameObject> (prefabToSpawn);
+		newObject.name = target;
+		newObject.transform.position = new Vector2 (this.transform.position.x, this.transform.position.y);
+		newObject.transform.SetParent (trans);
 
 		//Launch the shuriken
 		ShurikenToSushi test = newObject.GetComponent<ShurikenToSushi>();
 		test.target = target;
-		test.launch ();
 
 		//Target back to null for next launch
 		target = null;

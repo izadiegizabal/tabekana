@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public static class GlobalVariables : object {
 
@@ -8,7 +9,7 @@ public static class GlobalVariables : object {
 	public static bool inputArrayChanged = false;
 
 	//the sushis that are spawned and visible at the current time
-	public static ArrayList spawnedSushi = new ArrayList ();
+	public static  List<string> spawnedSushi = new List<string> ();
 
 	//to know if you can launch another shuriken
 	public static bool launchPermission = true;

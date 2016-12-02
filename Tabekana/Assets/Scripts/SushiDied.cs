@@ -25,7 +25,7 @@ public class SushiDied : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "Sushi") {
-			StartCoroutine (waitAnimation(0.75f));
+			StartCoroutine (waitAnimation(0.5f));
 
 		}
 
