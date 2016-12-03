@@ -7,12 +7,12 @@ public class SushiSpawner : MonoBehaviour {
 	public float spawnTime = 3f;            // How long between each spawn.
 	public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 	public int maxSushi = 10;				// The number of sushis that will be spawned
-	public string simpleHSprite;				//Simple hiragana sushi sprites for it's child RandomSushi script
+	public string simpleHSprite;			//Simple hiragana sushi sprites for it's child RandomSushi script
 	public string composedHSprite;			//Composed hiragana sushi sprites for it's child RandomSushi script
-	public string simpleKSprite;				//Simple katakana sushi sprites for it's child RandomSushi script
+	public string simpleKSprite;			//Simple katakana sushi sprites for it's child RandomSushi script
 	public string composedKSprite;			//Composed katakana sushi sprites for it's child RandomSushi script
-	public int level = 1;					//The current level for it's child RandomSushi script
 
+	private int level;						//The current level for it's child RandomSushi script
 	private int spawnedSushi = 0;			//To have a counter of the spawned sushi
 	void Start ()
 	{
@@ -48,6 +48,6 @@ public class SushiSpawner : MonoBehaviour {
 			comp.simple = simpleKSprite;
 			comp.composed = composedKSprite;
 		}
-		comp.level = level;
+		comp.level = int.Parse(GlobalVariables.actGameLvl.Split (new[] {" "}, System.StringSplitOptions.None) [1]);
 	}
 }
