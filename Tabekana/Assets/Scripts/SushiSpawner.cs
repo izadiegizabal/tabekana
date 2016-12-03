@@ -7,8 +7,10 @@ public class SushiSpawner : MonoBehaviour {
 	public float spawnTime = 3f;            // How long between each spawn.
 	public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
 	public int maxSushi = 10;				// The number of sushis that will be spawned
-	public string simpleSprite;				//Simple sushi sprites for it's child RandomSushi script
-	public string composedSprite;			//Composed sushi sprites for it's child RandomSushi script
+	public string simpleHSprite;				//Simple hiragana sushi sprites for it's child RandomSushi script
+	public string composedHSprite;			//Composed hiragana sushi sprites for it's child RandomSushi script
+	public string simpleKSprite;				//Simple katakana sushi sprites for it's child RandomSushi script
+	public string composedKSprite;			//Composed katakana sushi sprites for it's child RandomSushi script
 	public int level = 1;					//The current level for it's child RandomSushi script
 
 	private int spawnedSushi = 0;			//To have a counter of the spawned sushi
@@ -37,9 +39,15 @@ public class SushiSpawner : MonoBehaviour {
 		spawnedSushi++;
 		//Get reference of it's RandomSushi script
 		RandomSushi comp = go.GetComponent<RandomSushi>();
-		//Pass along the needed arguments for making it work
-		comp.simple = simpleSprite;
-		comp.composed = composedSprite;
+
+		//Pass along the needed arguments for making it work depending on the actual level
+		if (GlobalVariables.actGameLvl != null && GlobalVariables.actGameLvl.Split (new[] {" "}, System.StringSplitOptions.None) [0] == "h") {
+			comp.simple = simpleHSprite;
+			comp.composed = composedHSprite;
+		} else {
+			comp.simple = simpleKSprite;
+			comp.composed = composedKSprite;
+		}
 		comp.level = level;
 	}
 }
