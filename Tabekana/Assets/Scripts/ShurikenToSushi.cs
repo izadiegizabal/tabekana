@@ -20,5 +20,6 @@ public class ShurikenToSushi : Physics2DObject {
 		//Move towards the player
 		//rigidbody2D.MovePosition(Vector2.Lerp(transform.position, sushiTransform.position, Time.smoothDeltaTime * speed));
 		rigidbody2D.MovePosition(Vector2.MoveTowards(transform.position, sushiTransform.position, 0.2f));
+		GetComponent<Transform>().Rotate (0,0,1000*Time.deltaTime);;
 	}
 }

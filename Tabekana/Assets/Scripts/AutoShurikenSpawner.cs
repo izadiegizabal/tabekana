@@ -22,7 +22,7 @@ public class AutoShurikenSpawner : MonoBehaviour
 		
 		if(GlobalVariables.inputArrayChanged){
 			target  = FindTarget.findTarget ();
-			if (target != null && GlobalVariables.launchPermission) {
+			if (GlobalVariables.launchPermission) {
 				SpawnObject ();
 			}
 		}
@@ -45,5 +45,6 @@ public class AutoShurikenSpawner : MonoBehaviour
 
 		//Target back to null for next launch
 		target = null;
+		GlobalVariables.launchPermission = false;
 	}
 }

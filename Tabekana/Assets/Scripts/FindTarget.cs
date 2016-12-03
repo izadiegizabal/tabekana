@@ -19,6 +19,7 @@ public class FindTarget : MonoBehaviour {
 						target = temp;
 						GlobalVariables.array3Characters = new string [3] { "_", "", "" };
 						correct = true;
+						GlobalVariables.launchPermission = true;
 						break;
 					} else {
 						correct = true;
@@ -47,6 +48,7 @@ public class FindTarget : MonoBehaviour {
 							target = temp;
 							GlobalVariables.array3Characters = new string [3] {"_", "", ""};
 							correct = true;
+							GlobalVariables.launchPermission = true;
 							break;
 						} else {
 							correct = true;
@@ -77,6 +79,7 @@ public class FindTarget : MonoBehaviour {
 								target = temp;
 								GlobalVariables.array3Characters = new string [3] { "_", "", "" };
 								correct = true;
+								GlobalVariables.launchPermission = true;
 								break;
 							}  else {
 								correct = true;

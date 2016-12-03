@@ -12,7 +12,7 @@ public static class GlobalVariables : object {
 	public static  List<string> spawnedSushi = new List<string> ();
 
 	//to know if you can launch another shuriken
-	public static bool launchPermission = true;
+	public static bool launchPermission = false;
 
 
 	//actual learn level
