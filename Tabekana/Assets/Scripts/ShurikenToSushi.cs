@@ -13,6 +13,7 @@ public class ShurikenToSushi : Physics2DObject {
 	void Start(){
 		// Find the player in the scene and store a reference for later use
 		sushiTransform = GameObject.Find(target).transform;
+		sushiTransform.gameObject.name = "objective";
 	}
 
 	// FixedUpdate is called once per frame

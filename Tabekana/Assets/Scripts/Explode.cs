@@ -24,7 +24,8 @@ public class Explode : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "SushiDieZone") {
 			animator.SetInteger ("AnimState", 1);
-		} else if(target.gameObject.tag == "Shuriken"){
+		} else if(target.gameObject.tag == "Shuriken" && name.Equals("objective")){
+			GlobalVariables.destroyedSushi++;
 			animator.SetInteger ("AnimState", 1);
 			Destroy (target.gameObject);
 		}
@@ -32,9 +33,9 @@ public class Explode : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D target){
-		if (target.gameObject.tag == "SushiDieZone" || target.gameObject.tag == "Shuriken") {
+		if (target.gameObject.tag == "SushiDieZone") {
 			animator.SetInteger ("AnimState", 1);
-		} else if(target.gameObject.tag == "Shuriken"){
+		} else if(target.gameObject.tag == "Shuriken" && name.Equals("objective")){
 			animator.SetInteger ("AnimState", 1);
 			Destroy (target.gameObject);
 		}

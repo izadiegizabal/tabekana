@@ -30,6 +30,7 @@ public class AutoShurikenSpawner : MonoBehaviour
 	
 	// This will spawn an object, and then wait until it can launch again, then spawn another...
 	void SpawnObject () {
+
 		//Remove target from spawned sushi
 		GlobalVariables.spawnedSushi.Remove (target);
 

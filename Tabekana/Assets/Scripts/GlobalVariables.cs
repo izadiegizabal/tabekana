@@ -14,6 +14,9 @@ public static class GlobalVariables : object {
 	//to know if you can launch another shuriken
 	public static bool launchPermission = false;
 
+	//sushis per round and current amount
+	public static int maxSushi = 25;
+	public static int destroyedSushi = 0;
 
 	//actual learn level
 	public static string actLearnLvl = null;
