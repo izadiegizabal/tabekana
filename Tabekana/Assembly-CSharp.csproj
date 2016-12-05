@@ -174,12 +174,16 @@
      <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\KeyBoard.cs" />
      <Compile Include="Assets\Scripts\LevelInf.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeSushi1.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeSushi2.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeSushi3.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeSushi4.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeSushi5.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\RandomChar.cs" />
      <Compile Include="Assets\Scripts\RandomSushi.cs" />
      <Compile Include="Assets\Scripts\Rice.cs" />
      <Compile Include="Assets\Scripts\ShowInput.cs" />
-     <Compile Include="Assets\Scripts\SpriteChange.cs" />
      <Compile Include="Assets\Scripts\SushiDied.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
      <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
