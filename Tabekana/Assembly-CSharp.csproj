@@ -136,7 +136,6 @@
      <Compile Include="Assets\MaterialUI\Scripts\Managers\TweenManager.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\AdaptiveUIGrid.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\ContinuationManager.cs" />
-     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\DestroyedShushiController.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\EditorCoroutine.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\EditorUpdate.cs" />
      <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\Extensions.cs" />
@@ -188,6 +187,7 @@
      <Compile Include="Assets\Scripts\ResourceNameRomaji.cs" />
      <Compile Include="Assets\Scripts\Rice.cs" />
      <Compile Include="Assets\Scripts\ShowInput.cs" />
+     <Compile Include="Assets\Scripts\ShurikenBar.cs" />
      <Compile Include="Assets\Scripts\ShurikenToSushi.cs" />
      <Compile Include="Assets\Scripts\SushiDied.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
@@ -197,9 +197,6 @@
      <None Include="Assets\MaterialUI\Materials\SignedDistanceFieldUI.shader" />
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,16 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SushiSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MaterialUI/Scripts/MaterialUtils/DestroyedShushiController.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelChooser.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Explode.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ShurikenToSushi.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AutoShurikenSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FindTarget.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SushiSpawner.cs" Line="18" Column="16" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SushiDied.cs" Line="1" Column="1" />
+      <File FileName="Assets/MaterialUI/Scripts/MaterialUtils/DestroyedShushiController.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/SushiDied.cs" Line="34" Column="2" />
+      <File FileName="Assets/MaterialUI/Scripts/Components/Progress/CircularProgressIndicator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -78,3 +78,6 @@
 /Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.VR.dll
