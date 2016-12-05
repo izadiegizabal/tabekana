@@ -12,7 +12,7 @@ public class ChangeSushi5: MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		String value = "h 8";
+		String value = "h 15";
 		//en esta varibale cambiar por el metodo que lanza alba 
 
 		Char delimiter = ' ';
