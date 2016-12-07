@@ -21,4 +21,8 @@ public static class GlobalVariables : object {
 	//actual learn level
 	public static string actLearnLvl = null;
 	public static string actGameLvl = null;
+
+    //Unlock levels
+    public static int levelUnlockHira = 1;
+    public static int levelUnlockKata = 1;
 }
