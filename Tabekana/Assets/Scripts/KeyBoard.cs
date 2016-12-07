@@ -6,12 +6,10 @@ public class KeyBoard : MonoBehaviour {
 
 	string letra;
 
-	//public static bool leerClic (char datosDelClic){   <---- COMENTADO
 	public void leerClic (string datosDelClic){
 		// Transformamos el clic en una letra
 		letra = leeLetra(datosDelClic);
 		// La escribimos por pantalla
-		//return this.escribeLetra(letra);               <---- COMENTADO
 		escribeLetra(letra);
 
 	}
@@ -24,61 +22,61 @@ public class KeyBoard : MonoBehaviour {
 		switch (datosDelClic) {
 			// Primera linea
 			case "Q":
-				letra = "Q"; break;
+				letra = "q"; break;
 			case "W":
-				letra = "W"; break;
+				letra = "w"; break;
 			case "E":
-				letra = "E"; break;
+				letra = "e"; break;
 			case "R":
-				letra = "R"; break;
+				letra = "r"; break;
 			case "T":
-				letra = "T"; break;
+				letra = "t"; break;
 			case "Y":
-				letra = "Y"; break;
+				letra = "y"; break;
 			case "U":
-				letra = "U"; break;
+				letra = "u"; break;
 			case "I":
-				letra = "I"; break;
+				letra = "i"; break;
 			case "O":
-				letra = "O"; break;
+				letra = "o"; break;
 			case "P":
-				letra = "P"; break;
+				letra = "p"; break;
 
 			// Segunda linea
 			case "A":
-				letra = "A"; break;
+				letra = "a"; break;
 			case "S":
-				letra = "S"; break;
+				letra = "s"; break;
 			case "D":
-				letra = "D"; break;
+				letra = "d"; break;
 			case "F":
-				letra = "F"; break;
+				letra = "f"; break;
 			case "G":
-				letra = "G"; break;
+				letra = "g"; break;
 			case "H":
-				letra = "H"; break;
+				letra = "h"; break;
 			case "J":
-				letra = "J"; break;
+				letra = "j"; break;
 			case "K":
-				letra = "K"; break;
+				letra = "k"; break;
 			case "L":
-				letra = "L"; break;
+				letra = "l"; break;
 
 			// Tercera linea
 			case "Z":
-				letra = "Z"; break;
+				letra = "z"; break;
 			case "X":
-				letra = "X"; break;
+				letra = "x"; break;
 			case "C":
-				letra = "C"; break;
+				letra = "c"; break;
 			case "V":
-				letra = "V"; break;
+				letra = "v"; break;
 			case "B":
-				letra = "B"; break;
+				letra = "b"; break;
 			case "N":
-				letra = "N"; break;
+				letra = "n"; break;
 			case "M":
-				letra = "M"; break;
+				letra = "m"; break;
 		}
 		return letra;
 	}
@@ -86,11 +84,24 @@ public class KeyBoard : MonoBehaviour {
 	// Funcion que escribe la letra que recibe por parametro en pantalla
 	//private static bool escribeLetra(char letra){                         <---- COMENTADO
 	private static void escribeLetra(string letra){
-		// Coges la salida que toque y haces un print de la letra
+		// Cogemos la salida que toque y hacemos un print de la letra (a la consola)
 
-		print (letra);
-
-		// Si ha ido bien devuelve true, si no devuelve false
-		//return comoHaIdo;                                                 <---- COMENTADO
+		if (GlobalVariables.array3Characters [0] == "_") {
+			GlobalVariables.array3Characters [0] = letra;
+			GlobalVariables.array3Characters [1] = "_";
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
+		} 
+		else if (GlobalVariables.array3Characters [1] == "_") {
+			GlobalVariables.array3Characters [1] = letra;
+			GlobalVariables.array3Characters [2] = "_";
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
+		} 
+		else if (GlobalVariables.array3Characters [2] == "_") {
+			GlobalVariables.array3Characters [2] = letra;
+			//we inform that we've updated the input
+			GlobalVariables.inputArrayChanged = true;
+		}
 	}
 }

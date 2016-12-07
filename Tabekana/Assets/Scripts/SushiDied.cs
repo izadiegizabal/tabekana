@@ -25,9 +25,16 @@ public class SushiDied : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "Sushi") {
+			StartCoroutine (waitAnimation(0.5f));
 
-			loadLevel("LevelOver");
 		}
+
+	}
+
+	IEnumerator waitAnimation(float sec){
+		yield return new WaitForSeconds(sec);
+		SceneManager.LoadScene("YouLose", LoadSceneMode.Single);
+		GlobalVariables.destroyedSushi = 0;
 
 	}
 }

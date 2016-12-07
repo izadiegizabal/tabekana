@@ -8,11 +8,11 @@ public class ShowInput : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		input = GetComponentInChildren<Text>();
-		GetComponentInChildren<Text>().fontSize = 50;
+		input.text = string.Join("", GlobalVariables.array3Characters);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		input.text = string.Join("", GlobalVariables.array3Characters);
 	}
 }

@@ -22,15 +22,22 @@ public class Explode : MonoBehaviour {
 
 	//When trigger or collission change to appropiate animation that uses the Destroy method
 	void OnTriggerEnter2D(Collider2D target){
-		if (target.gameObject.tag == "Shuriken") {
+		if (target.gameObject.tag == "SushiDieZone") {
 			animator.SetInteger ("AnimState", 1);
+		} else if(target.gameObject.tag == "Shuriken" && name.Equals("objective")){
+			GlobalVariables.destroyedSushi++;
+			animator.SetInteger ("AnimState", 1);
+			Destroy (target.gameObject);
 		}
 
 	}
 
 	void OnCollisionEnter2D(Collision2D target){
-		if (target.gameObject.tag == "Shuriken") {
+		if (target.gameObject.tag == "SushiDieZone") {
 			animator.SetInteger ("AnimState", 1);
+		} else if(target.gameObject.tag == "Shuriken" && name.Equals("objective")){
+			animator.SetInteger ("AnimState", 1);
+			Destroy (target.gameObject);
 		}
 
 	}
@@ -46,7 +53,7 @@ public class Explode : MonoBehaviour {
 
 		//Create "totalParts" "rice pieces" in random directions and w/ random forces
 		for (int i = 0; i < totalParts; i++) {
-			Rice clone = Instantiate(rice, t.position, Quaternion.identity) as Rice;
+			Rice clone = (Rice) Instantiate(rice, t.position, Quaternion.identity);
 			clone.GetComponent<Rigidbody2D>().AddForce(Vector3.right * (Random.Range (-100, 100)));
 			clone.GetComponent<Rigidbody2D>().AddForce(Vector3.up * Random.Range(75, 300));
 		}
