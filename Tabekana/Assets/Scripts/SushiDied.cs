@@ -34,5 +34,7 @@ public class SushiDied : MonoBehaviour {
 	IEnumerator waitAnimation(float sec){
 		yield return new WaitForSeconds(sec);
 		SceneManager.LoadScene("YouLose", LoadSceneMode.Single);
+		GlobalVariables.destroyedSushi = 0;
+
 	}
 }

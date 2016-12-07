@@ -1,10 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MaterialUI/Scripts/MaterialUtils/DestroyedShushiController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoBack.cs">
     <Files>
-      <File FileName="Assets/MaterialUI/Scripts/MaterialUtils/DestroyedShushiController.cs" Line="23" Column="3" />
-      <File FileName="Assets/Scripts/SushiDied.cs" Line="34" Column="2" />
-      <File FileName="Assets/MaterialUI/Scripts/Components/Progress/CircularProgressIndicator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SushiDied.cs" Line="38" Column="3" />
+      <File FileName="Assets/Scripts/ShurikenBar.cs" Line="40" Column="3" />
+      <File FileName="Assets/Scripts/ShurikenToSushi.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="22" Column="34" />
+      <File FileName="Assets/Scripts/GoBack.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
