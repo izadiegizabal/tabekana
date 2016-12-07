@@ -11,11 +11,15 @@ public class ButtonSettings : MonoBehaviour {
 
 
     void Awake() {
+
+
         if (GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[0] == "h")
         {
             GlobalVariables.levelUnlockHira++;
+            PlayerPrefs.SetInt("levelhira", GlobalVariables.levelUnlockHira);
         }else{
             GlobalVariables.levelUnlockKata++;
+            PlayerPrefs.SetInt("levelkata", GlobalVariables.levelUnlockKata);
         }
        
     }
