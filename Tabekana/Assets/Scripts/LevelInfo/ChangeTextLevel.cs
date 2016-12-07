@@ -6,7 +6,7 @@ using System;
 
 public class ChangeTextLevel: MonoBehaviour {
 	//public LevelInf codigo;
-	String value = "h 15";
+	String value = "h 16";
 	//en esta varibale cambiar por el metodo que lanza alba 
 	private Text txtRef;
 
@@ -88,7 +88,34 @@ public class ChangeTextLevel: MonoBehaviour {
 				//Lesson 15
 				txtRef.text = "15";
 			}
-
+			if (d==16) {
+				//Lesson 15
+				txtRef.text = "16";
+			}
+			if (d==17) {
+				//Lesson 15
+				txtRef.text = "17";
+			}
+			if (d==18) {
+				//Lesson 15
+				txtRef.text = "18";
+			}
+			if (d==19) {
+				//Lesson 15
+				txtRef.text = "19";
+			}
+			if (d==20) {
+				//Lesson 15
+				txtRef.text = "20";
+			}
+			if (d==21) {
+				//Lesson 15
+				txtRef.text = "21";
+			}
+			if (d==22) {
+				//Lesson 15
+				txtRef.text = "22";
+			}
 		}
 	}
 

@@ -39,7 +39,7 @@ namespace MaterialUI
                 }
                 else
                 {
-                    importer.textureType = TextureImporterType.Advanced;
+                    importer.textureType = TextureImporterType.Default;
                 }
             }
         }
