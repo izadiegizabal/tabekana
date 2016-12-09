@@ -25,4 +25,8 @@ public static class GlobalVariables : object {
     //Unlock levels
     public static int levelUnlockHira = 1;
     public static int levelUnlockKata = 1;
+
+	//Score in infinite mode
+	public static int maxScore = 0;
+	public static int score = 0;
 }

@@ -28,6 +28,7 @@ public class Explode : MonoBehaviour {
 			GlobalVariables.destroyedSushi++;
 			animator.SetInteger ("AnimState", 1);
 			Destroy (target.gameObject);
+			GlobalVariables.score++;
 		}
 
 	}
