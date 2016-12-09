@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoBack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SushiSpawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/SushiDied.cs" Line="38" Column="3" />
-      <File FileName="Assets/Scripts/ShurikenBar.cs" Line="40" Column="3" />
-      <File FileName="Assets/Scripts/ShurikenToSushi.cs" Line="23" Column="3" />
-      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="22" Column="34" />
+      <File FileName="Assets/Scripts/SushiSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelUnlockHiragana.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SushiDied.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ShurikenBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ShurikenToSushi.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GoBack.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
