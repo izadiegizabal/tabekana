@@ -129,10 +129,9 @@ public class RandomSushi : MonoBehaviour {
 				currentSprite = Random.Range (0, untilWhat-levelSushi+1);
 			
 			//Change the current sprite to the chosen one
-		print(currentSprite);
-		GetComponent<SpriteRenderer> ().sprite = sprites[Mathf.Abs(currentSprite)];
+			GetComponent<SpriteRenderer> ().sprite = sprites[Mathf.Abs(currentSprite)];
 			//we change the name of the go
-		name = ResourceNameRomaji.ResToRomaji (sprites[Mathf.Abs(currentSprite)].name);
+			name = ResourceNameRomaji.ResToRomaji (sprites[Mathf.Abs(currentSprite)].name);
 
 			//we add the name of the sushi to the spawnedSushi list
 			GlobalVariables.spawnedSushi.Add (name);

@@ -48,12 +48,10 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 			comp.simple = simpleHSprite;
 			comp.composed = composedHSprite;
 			comp.level = PlayerPrefs.GetInt("levelhira");	// To create a random level between 1 and the last level unlocked.
-			print("Level Hira" + comp.level);
 		} else{
 			comp.simple = simpleKSprite;
 			comp.composed = composedKSprite;
 			comp.level = PlayerPrefs.GetInt("levelkata");
-			print("Level Kata" + comp.level);
 		}
 	}
 }
