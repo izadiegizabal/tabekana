@@ -31,7 +31,6 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 		spawnedSushi++;
 		if (GlobalVariables.score > GlobalVariables.maxScore) {
 			GlobalVariables.maxScore = GlobalVariables.score;
-			go.GetComponent<ShowScore> ();
 		}
 
 		//Get reference of it's RandomSushi script
