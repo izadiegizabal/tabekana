@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RandomSushi.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GlobalVariables.cs">
     <Files>
-      <File FileName="Assets\Scripts\GlobalVariables.cs" Line="31" Column="30" />
-      <File FileName="Assets\Scripts\SushiSpawnerInfiniteMode.cs" Line="56" Column="21" />
-      <File FileName="Assets\Scripts\RandomSushi.cs" Line="135" Column="74" />
+      <File FileName="Assets/Scripts/ShowScore.cs" Line="17" Column="53" />
+      <File FileName="Assets/Scripts/ShurikenToSushi.cs" Line="22" Column="100" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Explode.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -25,12 +25,6 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 		// Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
 
-		// Find a random index between zero and one ('two' is exclusive).
-		// If spawnKana == 0 -> Hiragana
-		// If spawnKana == 1 -> Katakana
-		int spawnKana = Random.Range (0, 2);
-
-
 		// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
 		GameObject go = (GameObject) Instantiate (sushi, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 		//Make the counter count the spawned sushi
@@ -41,7 +35,12 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 		}
 
 		//Get reference of it's RandomSushi script
-		RandomSushi comp = go.GetComponent<RandomSushi>();
+		RandomSushiInfinite comp = go.GetComponent<RandomSushiInfinite>();
+
+		// Find a random index between zero and one ('two' is exclusive).
+		// If spawnKana == 0 -> Hiragana
+		// If spawnKana == 1 -> Katakana
+		int spawnKana = Random.Range (0, 2);
 
 		//Pass along the needed arguments for making it work depending on the actual level
 		if(spawnKana == 0){
@@ -49,7 +48,7 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 			comp.composed = composedHSprite;
 			comp.level = PlayerPrefs.GetInt("levelhira");	// To create a random level between 1 and the last level unlocked.
 			print("Level Hira" + comp.level);
-		} else{
+		} else if(spawnKana == 1){
 			comp.simple = simpleKSprite;
 			comp.composed = composedKSprite;
 			comp.level = PlayerPrefs.GetInt("levelkata");
