@@ -4,8 +4,6 @@ using System.Collections;
 public class ShurikenToSushi : Physics2DObject {
 
 	[Header("Movement")]
-	// Speed used to move towards the player
-	public float speed = 5f;
 	public string target;
 
 	private Transform sushiTransform;
