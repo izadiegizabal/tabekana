@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 public static class GlobalVariables : object {
-
-	//the current input
-	public static string[] array3Characters = new string [3] {"_", "", ""};
+    
+    //the current input
+    public static string[] array3Characters = new string [3] {"_", "", ""};
 	public static bool inputArrayChanged = false;
 
 	//the sushis that are spawned and visible at the current time
