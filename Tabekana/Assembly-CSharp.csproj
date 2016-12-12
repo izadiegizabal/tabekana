@@ -258,6 +258,9 @@
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -279,6 +282,9 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="TexturePacker">
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Extensions/TexturePacker/Lib/TexturePacker.dll</HintPath>
+ </Reference>
  <Reference Include="Common">
  <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
  </Reference>
@@ -299,9 +305,6 @@
  </Reference>
  <Reference Include="winrt">
  <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
- </Reference>
- <Reference Include="TexturePacker">
- <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Extensions/TexturePacker/Lib/TexturePacker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
