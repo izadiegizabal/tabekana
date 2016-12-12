@@ -8,13 +8,18 @@ public class ShowMaxScore : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		// Show maxScore
 		showMaxScore = GetComponent<Text>();
-		showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+		if (GlobalVariables.score > GlobalVariables.maxScore) {
+			showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+		}
 	}
 
 	// Update is called once per frame
 	void Update () {
-		showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+		if (GlobalVariables.score > GlobalVariables.maxScore) {
+			GlobalVariables.maxScore = GlobalVariables.score;
+			showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+		}
+
 	}
 }

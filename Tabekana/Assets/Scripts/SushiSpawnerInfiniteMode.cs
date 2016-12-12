@@ -29,9 +29,7 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 		GameObject go = (GameObject) Instantiate (sushi, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 		//Make the counter count the spawned sushi
 		spawnedSushi++;
-		if (GlobalVariables.score > GlobalVariables.maxScore) {
-			GlobalVariables.maxScore = GlobalVariables.score;
-		}
+
 
 		//Get reference of it's RandomSushi script
 		RandomSushiInfinite comp = go.GetComponent<RandomSushiInfinite>();
@@ -46,12 +44,12 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 			comp.simple = simpleHSprite;
 			comp.composed = composedHSprite;
 			comp.level = PlayerPrefs.GetInt("levelhira");	// To create a random level between 1 and the last level unlocked.
-			print("Level Hira" + comp.level);
+			//print("Level Hira" + comp.level);
 		} else if(spawnKana == 1){
 			comp.simple = simpleKSprite;
 			comp.composed = composedKSprite;
 			comp.level = PlayerPrefs.GetInt("levelkata");
-			print("Level Kata" + comp.level);
+			//print("Level Kata" + comp.level);
 		}
 	}
 }
