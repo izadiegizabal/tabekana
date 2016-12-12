@@ -46,6 +46,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshSpriteAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureNoHelperEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSkinnedMeshTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPStaticSpriteEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPAtlasesData.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPHelper.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Templates\TPFlags.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AnimationApiTest.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIAnimationExample.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIExample.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\Atlases.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyAtlasController.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyFireAnimation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyMeshTexture.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyRotation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTeslaAnimation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTextures.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LengthValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LetterValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\08 - Sliders\Example08.cs" />
@@ -178,9 +201,11 @@
      <Compile Include="Assets\Scripts\ButtonSettings.cs" />
      <Compile Include="Assets\Scripts\Explode.cs" />
      <Compile Include="Assets\Scripts\FindTarget.cs" />
+     <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\GlobalVariables.cs" />
      <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\KeyBoard.cs" />
+     <Compile Include="Assets\Scripts\LessonButton.cs" />
      <Compile Include="Assets\Scripts\LevelChooser.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS1.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS2.cs" />
@@ -223,14 +248,16 @@
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
      <Compile Include="Assets\Scripts\SushiSpawnerInfiniteMode.cs" />
      <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
+     <Compile Include="Assets\Scripts\levelCleared.cs" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
      <None Include="Assets\MaterialUI\README.txt" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\example_data.txt" />
      <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
      <None Include="Assets\MaterialUI\Materials\SignedDistanceFieldUI.shader" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\TutorialAtlas_data.txt" />
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -272,6 +299,9 @@
  </Reference>
  <Reference Include="winrt">
  <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="TexturePacker">
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Extensions/TexturePacker/Lib/TexturePacker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

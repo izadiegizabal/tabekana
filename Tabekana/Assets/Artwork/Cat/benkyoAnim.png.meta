@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 2dd38f349b6b149faa764d5a7008d265
+timeCreated: 1481503224
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Benkyoshimasu_00000
+    21300002: Benkyoshimasu_00001
+    21300004: Benkyoshimasu_00002
+    21300006: Benkyoshimasu_00003
+    21300008: Benkyoshimasu_00004
+    21300010: Benkyoshimasu_00005
+    21300012: Benkyoshimasu_00006
+    21300014: Benkyoshimasu_00007
+    21300016: Benkyoshimasu_00008
+    21300018: Benkyoshimasu_00010
+    21300020: Benkyoshimasu_00011
+    21300022: Benkyoshimasu_00012
+    21300024: Benkyoshimasu_00013
+    21300026: Benkyoshimasu_00014
+    21300028: Benkyoshimasu_00015
+    21300030: Benkyoshimasu_00016
+    21300032: Benkyoshimasu_00017
+    21300034: Benkyoshimasu_00018
+    21300036: Benkyoshimasu_00019
+    21300038: Benkyoshimasu_00020
+    21300040: Benkyoshimasu_00021
+    21300042: Benkyoshimasu_00022
+    21300044: Benkyoshimasu_00023
+    21300046: Benkyoshimasu_00024
+    21300048: Benkyoshimasu_00025
+    21300050: Benkyoshimasu_00026
+    21300052: Benkyoshimasu_00027
+    21300054: Benkyoshimasu_00028
+    21300056: Benkyoshimasu_00029
+    21300058: Benkyoshimasu_00030
+    21300060: Benkyoshimasu_00031
+    21300062: Benkyoshimasu_00032
+    21300064: Benkyoshimasu_00033
+    21300066: Benkyoshimasu_00034
+    21300068: Benkyoshimasu_00035
+    21300070: Benkyoshimasu_00036
+    21300072: Benkyoshimasu_00037
+    21300074: Benkyoshimasu_00038
+    21300076: Benkyoshimasu_00039
+    21300078: Benkyoshimasu_00040
+    21300080: Benkyoshimasu_00041
+    21300082: Benkyoshimasu_00042
+    21300084: Benkyoshimasu_00043
+    21300086: Benkyoshimasu_00044
+    21300088: Benkyoshimasu_00045
+    21300090: Benkyoshimasu_00046
+    21300092: Benkyoshimasu_00047
+    21300094: Benkyoshimasu_00048
+    21300096: Benkyoshimasu_00049
+    21300098: Benkyoshimasu_00050
+    21300100: Benkyoshimasu_00051
+    21300102: Benkyoshimasu_00052
+    21300104: Benkyoshimasu_00053
+    21300106: Benkyoshimasu_00054
+    21300108: Benkyoshimasu_00055
+    21300110: Benkyoshimasu_00056
+    21300112: Benkyoshimasu_00057
+    21300114: Benkyoshimasu_00058
+    21300116: Benkyoshimasu_00059
+    21300118: Benkyoshimasu_00060
+    21300120: Benkyoshimasu_00061
+    21300122: Benkyoshimasu_00062
+    21300124: Benkyoshimasu_00063
+    21300126: Benkyoshimasu_00064
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Benkyoshimasu_00000
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00001
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00002
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00003
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00004
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00005
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00006
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00007
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00008
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00010
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00011
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00012
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00013
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00014
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00015
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00016
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00023
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00024
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00026
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00027
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00028
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00029
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00030
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00031
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00032
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00033
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00034
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00035
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00036
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00037
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00038
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00039
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00040
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00041
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00042
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00043
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00044
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00045
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00046
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00047
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00048
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00049
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00050
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 2065
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00051
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00052
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00053
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00054
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 3589
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00055
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00056
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00057
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00058
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00059
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1557
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00060
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 3081
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00061
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1049
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00062
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 2573
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00063
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 541
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Benkyoshimasu_00064
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 33
+        width: 506
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

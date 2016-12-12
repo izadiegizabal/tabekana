@@ -47,14 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\UnityPurchasing\Editor\IAPButtonEditor.cs" />
+     <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
      <None Include="Assets\MaterialUI\README.txt" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\example_data.txt" />
      <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
      <None Include="Assets\MaterialUI\Materials\SignedDistanceFieldUI.shader" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\TutorialAtlas_data.txt" />
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -138,6 +139,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="TexturePacker">
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/Extensions/TexturePacker/Lib/TexturePacker.dll</HintPath>
+ </Reference>
+ <Reference Include="TexturePackerImporter">
+ <HintPath>/Users/izadi/Documents/GitHub/tabekana/Tabekana/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
