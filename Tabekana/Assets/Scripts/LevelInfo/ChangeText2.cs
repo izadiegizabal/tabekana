@@ -4,17 +4,15 @@ using UnityEngine.UI;
 using System;
 
 public class ChangeText2: MonoBehaviour {
-	//public LevelInf codigo;
-	String value = "h 15";
-	//en esta varibale cambiar por el metodo que lanza alba 
-	private Text txtRef;
+private Text txtRef;
 
 
 
 	// Use this for initialization
 	void Start () {
 		txtRef = GetComponent<Text>();//or provide from somewhere else (e.g. if you want via find GameObject.Find("CountText").GetComponent<Text>();)
-
+		String value = null;
+		value = GlobalVariables.actLearnLvl;
 
 		Char delimiter = ' ';
 		String[] substrings = value.Split(delimiter);
@@ -23,8 +21,7 @@ public class ChangeText2: MonoBehaviour {
 		char u = char.Parse (a);
 		int d = int.Parse (b);
 
-		if (u.Equals('h')) {
-			//Hiragana
+
 			if (d==1){
 				//Lesson 1
 				//m_tittletex="Lesson 1";
@@ -88,7 +85,7 @@ public class ChangeText2: MonoBehaviour {
 				txtRef.text = "pi";
 			}
 
-		}
+
 	}
 
 	// Update is called once per frame
