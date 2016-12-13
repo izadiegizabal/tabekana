@@ -3,8 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 
-public class ChangeText5: MonoBehaviour {
-	private Text txtRef;
+public class ChangeText6: MonoBehaviour {
+private Text txtRef;
 
 
 
@@ -22,67 +22,67 @@ public class ChangeText5: MonoBehaviour {
 		int d = int.Parse (b);
 
 
-			if (d==1){
+			if (d==16){
 				//Lesson 1
 				//m_tittletex="Lesson 1";
-				txtRef.text = "o";
+				txtRef.text = "a";
 
 			}
-			if (d==2){
+			if (d==17){
 				//Lesson 2
-				txtRef.text = "ko";
+				txtRef.text = "ka";
 			}
-			if (d==3) {
+			if (d==18) {
 				//Lesson 3
-				txtRef.text = "so";
+				txtRef.text = "sa";
 			}
-			if (d==4) {
+			if (d==19) {
 				//Lesson 4
-				txtRef.text = "to";
+				txtRef.text = "ta";
 			}
-			if (d==5) {
+			if (d==20) {
 				//Lesson 5
-				txtRef.text = "no";
+				txtRef.text = "na";
 			}
-			if (d==6) {
+			if (d==21) {
 				//Lesson 6
-				txtRef.text = "ho";
+				txtRef.text = "ha";
 			}
-			if (d==7) {
+			if (d==22) {
 				//Lesson 7
-				txtRef.text = "mo";
+				txtRef.text = "ma";
 			}
-			if (d==8) {
+			if (d==23) {
 				//Lesson 8
-				txtRef.text = " ";
+				txtRef.text = "ya";
 			}
-			if (d==9) {
+			if (d==24) {
 				//Lesson 9
-				txtRef.text = "ro";
+				txtRef.text = "ra";
 			}
-			if (d==10) {
+			if (d==25) {
 				//Lesson 10
-				txtRef.text = " ";
+				txtRef.text = "wa";
 			}
-			if (d==11) {
+			if (d==26) {
 				//Lesson 11
-				txtRef.text = "go";
+				txtRef.text = "ga";
 			}
-			if (d==12) {
+			if (d==27) {
 				//Lesson 12
-				txtRef.text = "zo";
+				txtRef.text = "za";
 			}
-			if (d==13) {
+			if (d==28) {
 				//Lesson 13
-				txtRef.text = "do";
+				txtRef.text = "da";
 			}
-			if (d==14) {
+			if (d==29) {
 				//Lesson 14
-				txtRef.text = "bo";
+				txtRef.text = "ba";
 			}
-			if (d==15) {
+			if (d==30) {
 				//Lesson 15
-				txtRef.text = "po";
+				txtRef.text = "pa";
 			}
 
 

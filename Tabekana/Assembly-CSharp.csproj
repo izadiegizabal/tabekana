@@ -206,6 +206,7 @@
      <Compile Include="Assets\Scripts\GoBack.cs" />
      <Compile Include="Assets\Scripts\KeyBoard.cs" />
      <Compile Include="Assets\Scripts\LessonButton.cs" />
+     <Compile Include="Assets\Scripts\LessonChooser.cs" />
      <Compile Include="Assets\Scripts\LevelChooser.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS1.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS2.cs" />
@@ -229,6 +230,7 @@
      <Compile Include="Assets\Scripts\LevelInfo\ChangeText3.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeText4.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeText5.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ChangeText6.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeTextLevel.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\LevelInf.cs" />
      <Compile Include="Assets\Scripts\LevelLoader.cs" />
