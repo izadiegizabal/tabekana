@@ -34,11 +34,11 @@ private Text txtRef;
 			}
 			if (d==3) {
 				//Lesson 3
-				txtRef.text = "si";
+				txtRef.text = "shi";
 			}
 			if (d==4) {
 				//Lesson 4
-				txtRef.text = "ti";
+				txtRef.text = "chi";
 			}
 			if (d==5) {
 				//Lesson 5
@@ -70,7 +70,7 @@ private Text txtRef;
 			}
 			if (d==12) {
 				//Lesson 12
-				txtRef.text = "zi";
+				txtRef.text = "ji";
 			}
 			if (d==13) {
 				//Lesson 13
