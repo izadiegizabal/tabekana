@@ -2,16 +2,16 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/Artwork/Cat/benkyoAnim.tpsheet
+- Assets/Artwork/Game/Sushi_lessons/Hiragana_digraphs.tpsheet
+- Assets/Artwork/Game/Sushi_lessons/Katakana_digraphs.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
-- Assets/Resources/Hiragana_digraphs.tpsheet
-- Assets/Resources/Katakana_digraphs.tpsheet
 textureFileNames:
 - Assets/Artwork/Cat/benkyoAnim.png
+- Assets/Artwork/Game/Sushi_lessons/Hiragana_digraphs.png
+- Assets/Artwork/Game/Sushi_lessons/Katakana_digraphs.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- Assets/Resources/Hiragana_digraphs.png
-- Assets/Resources/Katakana_digraphs.png
 normalmapFileNames:
 - 
+- 
+- 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
-- 
-- 
