@@ -3,9 +3,15 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/Artwork/Cat/benkyoAnim.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Resources/Hiragana_digraphs.tpsheet
+- Assets/Resources/Katakana_digraphs.tpsheet
 textureFileNames:
 - Assets/Artwork/Cat/benkyoAnim.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Resources/Hiragana_digraphs.png
+- Assets/Resources/Katakana_digraphs.png
 normalmapFileNames:
 - 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
