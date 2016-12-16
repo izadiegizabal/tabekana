@@ -23,7 +23,7 @@ public class UISettings{
 public class LevelInf : MonoBehaviour {
 	public Sprite a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
 	public Sprite aa,ba,ca,da,ea,fa,ga,ha,ia,ja,ka,la,ma,na,oa,pa,qa,ra,sa,ta,ua,va,wa,xa,ya,za;
-	public Sprite ab,bb,cb,db,eb,fb,gb,hb,ib,jb,kb,lb,mb,nb,ob,pb,qb,rb,sb,tb,ub,vb,wb,xb,yb,zb;
+	public Sprite ab,bb,cb,db,eb,fb,gb,hb,ib,jb,kb,lb,mb,nb,ob,pb,qb,rb,sb,tb;
 
 
 
@@ -108,12 +108,7 @@ public class LevelInf : MonoBehaviour {
 		rb = gameObject.GetComponent<LevelInf> ().rb;
 		sb = gameObject.GetComponent<LevelInf> ().sb;
 		tb = gameObject.GetComponent<LevelInf> ().tb;
-		ub = gameObject.GetComponent<LevelInf> ().ub;
-		vb = gameObject.GetComponent<LevelInf> ().vb;
-		wb = gameObject.GetComponent<LevelInf> ().wb;
-		xb = gameObject.GetComponent<LevelInf> ().xb;
-		yb = gameObject.GetComponent<LevelInf> ().yb;
-		zb = gameObject.GetComponent<LevelInf> ().zb;
+
 
 		//nivel = GameObject.Find ("sushis");
 		//codigo = gameObject.GetComponent<LevelInf>().uno;
