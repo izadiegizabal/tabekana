@@ -38,7 +38,7 @@ public class ChangeText3: MonoBehaviour {
 			}
 			if (d==4) {
 				//Lesson 4
-				txtRef.text = "tu";
+				txtRef.text = "tsu";
 			}
 			if (d==5) {
 				//Lesson 5
@@ -46,7 +46,7 @@ public class ChangeText3: MonoBehaviour {
 			}
 			if (d==6) {
 				//Lesson 6
-				txtRef.text = "hu";
+				txtRef.text = "fu";
 			}
 			if (d==7) {
 				//Lesson 7
