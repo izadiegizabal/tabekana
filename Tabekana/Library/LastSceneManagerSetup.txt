@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/GameLevelChooser.unity
-=======
-- path: Assets/Scenes/MainMenu.unity
->>>>>>> origin/master
+- path: Assets/Scenes/LessonChooser.unity
   isLoaded: 1
   isActive: 1
