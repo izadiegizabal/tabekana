@@ -11,6 +11,7 @@ public class ShowMaxScore : MonoBehaviour {
 		showMaxScore = GetComponent<Text>();
 		if (GlobalVariables.score > GlobalVariables.maxScore) {
 			showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+			PlayerPrefs.SetInt("maxScore", GlobalVariables.maxScore);	// Save the global variable if the user close the app
 		}
 	}
 
@@ -19,6 +20,7 @@ public class ShowMaxScore : MonoBehaviour {
 		if (GlobalVariables.score > GlobalVariables.maxScore) {
 			GlobalVariables.maxScore = GlobalVariables.score;
 			showMaxScore.text = "MaxScore: " + GlobalVariables.maxScore;
+			PlayerPrefs.SetInt("maxScore", GlobalVariables.maxScore);	// Save the global variable if the user close the app
 		}
 
 	}

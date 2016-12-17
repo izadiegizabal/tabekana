@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SushiSpawnerInfiniteMode.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ShowMaxScore.cs">
     <Files>
       <File FileName="Assets\Scripts\ShurikenToSushi.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ShowScore.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShowMaxScore.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SushiSpawnerInfiniteMode.cs" Line="27" Column="99" />
+      <File FileName="Assets\Scripts\ShowMaxScore.cs" Line="23" Column="46" />
+      <File FileName="Assets\Scripts\SushiSpawnerInfiniteMode.cs" Line="12" Column="37" />
       <File FileName="Assets\Scripts\RandomSushiInfinite.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GlobalVariables.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelUnlockHiragana.cs" Line="18" Column="112" />
+      <File FileName="Assets\Scripts\ButtonSettings.cs" Line="28" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
