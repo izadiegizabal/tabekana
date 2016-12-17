@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LevelInfo1.unity
+- path: Assets/Scenes/InfiniteMode.unity
   isLoaded: 1
   isActive: 1
