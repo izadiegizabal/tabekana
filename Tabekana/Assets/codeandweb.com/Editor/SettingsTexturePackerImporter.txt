@@ -1,11 +1,5 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
-- Assets/Artwork/Cat/benkyoAnim.tpsheet
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
-- Assets/Artwork/Cat/benkyoAnim.png
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
-- 
-- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
