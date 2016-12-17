@@ -69,6 +69,7 @@
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyRotation.cs" />
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTeslaAnimation.cs" />
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTextures.cs" />
+     <Compile Include="Assets\InputAnimation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LengthValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LetterValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\08 - Sliders\Example08.cs" />

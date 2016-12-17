@@ -5,8 +5,10 @@ public class FindTarget : MonoBehaviour {
 
 	private static string target = null;
 	private static bool correct = false;
+	private static Animator animator;
 
 	public static string findTarget(){
+		animator = GameObject.Find("Input").GetComponent<Animator> ();
 
 		//if it has a letter
 		if (GlobalVariables.array3Characters [1].Equals("_")){
@@ -20,6 +22,7 @@ public class FindTarget : MonoBehaviour {
 						GlobalVariables.array3Characters = new string [3] { "_", "", "" };
 						correct = true;
 						GlobalVariables.launchPermission = true;
+						animator.SetInteger ("AnimState", 2);
 						break;
 					} else {
 						correct = true;
@@ -28,6 +31,7 @@ public class FindTarget : MonoBehaviour {
 			}
 			//if we don't find any target, it means that the user has writen the romaji wrong --> we reset the input array and target
 			if (!correct) {
+				animator.SetInteger ("AnimState", 1);
 				GlobalVariables.array3Characters = new string[3] {"_", "", ""};
 				target = null;
 			}
@@ -49,6 +53,7 @@ public class FindTarget : MonoBehaviour {
 							GlobalVariables.array3Characters = new string [3] {"_", "", ""};
 							correct = true;
 							GlobalVariables.launchPermission = true;
+							animator.SetInteger ("AnimState", 2);
 							break;
 						} else {
 							correct = true;
@@ -58,6 +63,7 @@ public class FindTarget : MonoBehaviour {
 			}
 			//if we don't find any target, it means that the user has writen the romaji wrong --> we reset the input array and target
 			if (!correct) {
+				animator.SetInteger ("AnimState", 1);
 				GlobalVariables.array3Characters = new string[3] {"_", "", ""};
 				target = null;
 			}
@@ -80,6 +86,7 @@ public class FindTarget : MonoBehaviour {
 								GlobalVariables.array3Characters = new string [3] { "_", "", "" };
 								correct = true;
 								GlobalVariables.launchPermission = true;
+								animator.SetInteger ("AnimState", 2);
 								break;
 							}  else {
 								correct = true;
@@ -90,6 +97,7 @@ public class FindTarget : MonoBehaviour {
 			}
 			//if we don't find any target, it means that the user has writen the romaji wrong --> we reset the input array and target
 			if (!correct) {
+				animator.SetInteger ("AnimState", 1);
 				GlobalVariables.array3Characters = new string[3] {"_", "", ""};
 				target = null;
 			}
