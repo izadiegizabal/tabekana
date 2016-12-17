@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 36dd874942ff34b90a5b00e170cbddd6
+timeCreated: 1481941371
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hiragana_base_lessons_ONA_0
+    21300002: hiragana_base_lessons_ONA_1
+    21300004: hiragana_base_lessons_ONA_2
+    21300006: hiragana_base_lessons_ONA_3
+    21300008: hiragana_base_lessons_ONA_4
+    21300010: hiragana_base_lessons_ONA_5
+    21300012: hiragana_base_lessons_ONA_6
+    21300014: hiragana_base_lessons_ONA_7
+    21300016: hiragana_base_lessons_ONA_8
+    21300018: hiragana_base_lessons_ONA_9
+    21300020: hiragana_base_lessons_ONA_10
+    21300022: hiragana_base_lessons_ONA_11
+    21300024: hiragana_base_lessons_ONA_12
+    21300026: hiragana_base_lessons_ONA_13
+    21300028: hiragana_base_lessons_ONA_14
+    21300030: hiragana_base_lessons_ONA_15
+    21300032: hiragana_base_lessons_ONA_16
+    21300034: hiragana_base_lessons_ONA_17
+    21300036: hiragana_base_lessons_ONA_18
+    21300038: hiragana_base_lessons_ONA_19
+    21300040: hiragana_base_lessons_ONA_20
+    21300042: hiragana_base_lessons_ONA_21
+    21300044: hiragana_base_lessons_ONA_22
+    21300046: hiragana_base_lessons_ONA_23
+    21300048: hiragana_base_lessons_ONA_24
+    21300050: hiragana_base_lessons_ONA_25
+    21300052: hiragana_base_lessons_ONA_26
+    21300054: hiragana_base_lessons_ONA_27
+    21300056: hiragana_base_lessons_ONA_28
+    21300058: hiragana_base_lessons_ONA_29
+    21300060: hiragana_base_lessons_ONA_30
+    21300062: hiragana_base_lessons_ONA_31
+    21300064: hiragana_base_lessons_ONA_32
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1270
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1270
+        width: 336
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_2
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1265
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_3
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1265
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_4
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1267
+        width: 322
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1062
+        width: 377
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1062
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1057
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1061
+        width: 377
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_9
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1051
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 857
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_11
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 857
+        width: 336
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_12
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 853
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_13
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 856
+        width: 321
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_14
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 854
+        width: 327
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 649
+        width: 377
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 649
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_17
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 644
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_18
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 648
+        width: 377
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_19
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 641
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 437
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_21
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 436
+        width: 336
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_22
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 431
+        width: 322
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_23
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 433
+        width: 321
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_24
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 420
+        width: 328
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 376
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_26
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 223
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_27
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 218
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_28
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 200
+        width: 322
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_29
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 184
+        width: 323
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 26
+        width: 323
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 21
+        width: 323
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hiragana_base_lessons_ONA_32
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 13
+        width: 323
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
