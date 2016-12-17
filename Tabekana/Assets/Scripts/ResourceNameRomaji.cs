@@ -152,72 +152,72 @@ public class ResourceNameRomaji : MonoBehaviour {
 			case "HiraganaBase_wOnigiri_70":
 				romaji = "po"; break;
 
-			//////HIRAGANA COMPOSED//////
-			case "Hiragana_digraphs_0":
+			//////COMPOSED//////
+			case "1-Kya":
 				romaji = "kya"; break;
-			case "Hiragana_digraphs_1":
+			case "2-Kyu":
 				romaji = "kyu"; break;
-			case "Hiragana_digraphs_2":
+			case "3-Kyo":
 				romaji = "kyo"; break;
-			case "Hiragana_digraphs_3":
+			case "4-Sha":
 				romaji = "sha"; break;
-			case "Hiragana_digraphs_4":
+			case "5-Shu":
 				romaji = "shu"; break;
-			case "Hiragana_digraphs_5":
+			case "6-Sho":
 				romaji = "sho"; break;
-			case "Hiragana_digraphs_6":
+			case "7-Cha":
 				romaji = "cha"; break;
-			case "Hiragana_digraphs_7":
+			case "8-Chu":
 				romaji = "chu"; break;
-			case "Hiragana_digraphs_8":
+			case "9-Cho":
 				romaji = "cho"; break;
-			case "Hiragana_digraphs_9":
+			case "10-Nya":
 				romaji = "nya"; break;
-			case "Hiragana_digraphs_10":
+			case "11-Nyu":
 				romaji = "nyu"; break;
-			case "Hiragana_digraphs_11":
+			case "12-Nyo":
 				romaji = "nyo"; break;
-			case "Hiragana_digraphs_12":
+			case "13-Hya":
 				romaji = "hya"; break;
-			case "Hiragana_digraphs_13":
+			case "14-Hyu":
 				romaji = "hyu"; break;
-			case "Hiragana_digraphs_14":
+			case "15-Hyo":
 				romaji = "hyo"; break;
-			case "Hiragana_digraphs_15":
+			case "16-Mya":
 				romaji = "mya"; break;
-			case "Hiragana_digraphs_16":
+			case "17-Myu":
 				romaji = "myu"; break;
-			case "Hiragana_digraphs_17":
+			case "18-Myo":
 				romaji = "myo"; break;
-			case "Hiragana_digraphs_18":
+			case "19-Rya":
 				romaji = "rya"; break;
-			case "Hiragana_digraphs_19":
+			case "20-Ryu":
 				romaji = "ryu"; break;
-			case "Hiragana_digraphs_20":
+			case "21-Ryo":
 				romaji = "ryo"; break;
-			case "Hiragana_digraphs_21":
+			case "22-Gya":
 				romaji = "gya"; break;
-			case "Hiragana_digraphs_22":
+			case "23-Gyu":
 				romaji = "gyu"; break;
-			case "Hiragana_digraphs_23":
+			case "24-Gyo":
 				romaji = "gyo"; break;
-			case "Hiragana_digraphs_24":
+			case "25-Ja":
 				romaji = "ja"; break;
-			case "Hiragana_digraphs_25":
+			case "26-Ju":
 				romaji = "ju"; break;
-			case "Hiragana_digraphs_26":
+			case "27-Jo":
 				romaji = "jo"; break;
-			case "Hiragana_digraphs_27":
+			case "28-Bya":
 				romaji = "bya"; break;
-			case "Hiragana_digraphs_28":
+			case "29-Byu":
 				romaji = "byu"; break;
-			case "Hiragana_digraphs_29":
+			case "30-Byo":
 				romaji = "byo"; break;
-			case "Hiragana_digraphs_30":
+			case "31-Pya":
 				romaji = "pya"; break;
-			case "Hiragana_digraphs_31":
+			case "32-Pyu":
 				romaji = "pyu"; break;
-			case "Hiragana_digraphs_32":
+			case "33-Pyo":
 				romaji = "pyo"; break;
 
 			/////KATAKANA BASE/////
@@ -363,74 +363,6 @@ public class ResourceNameRomaji : MonoBehaviour {
 				romaji = "pe"; break;
 			case "KatakanaBase_wOnigiri_70":
 				romaji = "po"; break;
-
-				//////KATAKANA COMPOSED//////
-			case "Katakana_digraphs_0":
-				romaji = "kya"; break;
-			case "Katakana_digraphs_1":
-				romaji = "kyu"; break;
-			case "Katakana_digraphs_2":
-				romaji = "kyo"; break;
-			case "Katakana_digraphs_3":
-				romaji = "sha"; break;
-			case "Katakana_digraphs_4":
-				romaji = "shu"; break;
-			case "Katakana_digraphs_5":
-				romaji = "sho"; break;
-			case "Katakana_digraphs_6":
-				romaji = "cha"; break;
-			case "Katakana_digraphs_7":
-				romaji = "chu"; break;
-			case "Katakana_digraphs_8":
-				romaji = "cho"; break;
-			case "Katakana_digraphs_9":
-				romaji = "nya"; break;
-			case "Katakana_digraphs_10":
-				romaji = "nyu"; break;
-			case "Katakana_digraphs_11":
-				romaji = "nyo"; break;
-			case "Katakana_digraphs_12":
-				romaji = "hya"; break;
-			case "Katakana_digraphs_13":
-				romaji = "hyu"; break;
-			case "Katakana_digraphs_14":
-				romaji = "hyo"; break;
-			case "Katakana_digraphs_15":
-				romaji = "mya"; break;
-			case "Katakana_digraphs_16":
-				romaji = "myu"; break;
-			case "Katakana_digraphs_17":
-				romaji = "myo"; break;
-			case "Katakana_digraphs_18":
-				romaji = "rya"; break;
-			case "Katakana_digraphs_19":
-				romaji = "ryu"; break;
-			case "Katakana_digraphs_20":
-				romaji = "ryo"; break;
-			case "Katakana_digraphs_21":
-				romaji = "gya"; break;
-			case "Katakana_digraphs_22":
-				romaji = "gyu"; break;
-			case "Katakana_digraphs_23":
-				romaji = "gyo"; break;
-			case "Katakana_digraphs_24":
-				romaji = "ja"; break;
-			case "Katakana_digraphs_25":
-				romaji = "ju"; break;
-			case "Katakana_digraphs_26":
-				romaji = "jo"; break;
-			case "Katakana_digraphs_27":
-				romaji = "bya"; break;
-			case "Katakana_digraphs_28":
-				romaji = "byu"; break;
-			case "Katakana_digraphs_29":
-				romaji = "byo"; break;
-			case "Katakana_digraphs_30":
-				romaji = "pya"; break;
-			case "Katakana_digraphs_31":
-				romaji = "pyu"; break;
-			case "Katakana_digraphs_32":
-				romaji = "pyo"; break;
 
 
 			//////DEFAULT/////

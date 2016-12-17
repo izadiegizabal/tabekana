@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: c214faf6c386245a7bf33c907db645d0
+timeCreated: 1478907705
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Katakana_digraphs_0
+    21300002: Katakana_digraphs_1
+    21300004: Katakana_digraphs_2
+    21300006: Katakana_digraphs_3
+    21300008: Katakana_digraphs_4
+    21300010: Katakana_digraphs_5
+    21300012: Katakana_digraphs_6
+    21300014: Katakana_digraphs_7
+    21300016: Katakana_digraphs_8
+    21300018: Katakana_digraphs_9
+    21300020: Katakana_digraphs_10
+    21300022: Katakana_digraphs_11
+    21300024: Katakana_digraphs_12
+    21300026: Katakana_digraphs_13
+    21300028: Katakana_digraphs_14
+    21300030: Katakana_digraphs_15
+    21300032: Katakana_digraphs_16
+    21300034: Katakana_digraphs_17
+    21300036: Katakana_digraphs_18
+    21300038: Katakana_digraphs_19
+    21300040: Katakana_digraphs_20
+    21300042: Katakana_digraphs_21
+    21300044: Katakana_digraphs_22
+    21300046: Katakana_digraphs_23
+    21300048: Katakana_digraphs_24
+    21300050: Katakana_digraphs_25
+    21300052: Katakana_digraphs_26
+    21300054: Katakana_digraphs_27
+    21300056: Katakana_digraphs_28
+    21300058: Katakana_digraphs_29
+    21300060: Katakana_digraphs_30
+    21300062: Katakana_digraphs_31
+    21300064: Katakana_digraphs_32
+    21300066: 1-Kya
+    21300068: 2-Kyu
+    21300070: 3-Kyo
+    21300072: 4-Sha
+    21300074: 5-Shu
+    21300076: 6-Sho
+    21300078: 7-Cha
+    21300080: 8-Chu
+    21300082: 9-Cho
+    21300084: 10-Nya
+    21300086: 11-Nyu
+    21300088: 12-Nyo
+    21300090: 13-Hya
+    21300092: 14-Hyu
+    21300094: 15-Hyo
+    21300096: 16-Mya
+    21300098: 17-Myu
+    21300100: 18-Myo
+    21300102: 19-Rya
+    21300104: 20-Ryu
+    21300106: 21-Ryo
+    21300108: 22-Gya
+    21300110: 23-Gyu
+    21300112: 24-Gyo
+    21300114: 25-Ja
+    21300116: 26-Ju
+    21300118: 27-Jo
+    21300120: 28-Bya
+    21300122: 29-Byu
+    21300124: 30-Byo
+    21300126: 31-Pya
+    21300128: 32-Pyu
+    21300130: 33-Pyo
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1-Kya
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1842
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 2-Kyu
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1840
+        width: 374
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 3-Kyo
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1842
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4-Sha
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1842
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 5-Shu
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1840
+        width: 364
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 6-Sho
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1633
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 7-Cha
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1633
+        width: 419
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 8-Chu
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1633
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 9-Cho
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1633
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 10-Nya
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1633
+        width: 419
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 11-Nyu
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1426
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 12-Nyo
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1426
+        width: 359
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 13-Hya
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1426
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 14-Hyu
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1424
+        width: 374
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 15-Hyo
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1426
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 16-Mya
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1217
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 17-Myu
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1215
+        width: 364
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 18-Myo
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1217
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 19-Rya
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1217
+        width: 419
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 20-Ryu
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1217
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 21-Ryo
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1008
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 22-Gya
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1008
+        width: 419
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 23-Gyu
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1008
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 24-Gyo
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1008
+        width: 359
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 25-Ja
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1008
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 26-Ju
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 799
+        width: 374
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 27-Jo
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 801
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 28-Bya
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 801
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 29-Byu
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 799
+        width: 364
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 30-Byo
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 801
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 31-Pya
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 592
+        width: 418
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 32-Pyu
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 592
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 33-Pyo
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 592
+        width: 358
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

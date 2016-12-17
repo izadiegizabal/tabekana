@@ -11,9 +11,8 @@ public class ChangeS3: MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		String value = "h 16";
-		//en esta varibale cambiar por el metodo que lanza alba 
-
+		String value = null;
+		value = GlobalVariables.actLearnLvl;
 		Char delimiter = ' ';
 		String[] substrings = value.Split(delimiter);
 		string a = substrings [0];
@@ -70,6 +69,63 @@ public class ChangeS3: MonoBehaviour {
 			if (d==22) {
 				//Lesson 7
 				sushis = GameObject.Find ("sushis");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.ga;
+			}
+
+
+		}
+
+		if (u.Equals('k')) {
+			//Katakana
+			if (d==16){
+				//Lesson 1
+				//m_tittletex="Lesson 1";
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.c;
+
+			}
+			if (d==17){
+				//Lesson 2
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.i;
+			}
+			if (d==18) {
+				//Lesson 3
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.o;
+			}
+			if (d==19) {
+				//Lesson 4
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.u;
+			}
+			if (d==20) {
+				//Lesson 5
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.aa;
+			}
+			if (d==21) {
+				//Lesson 6
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.da;
+			}
+			if (d==22) {
+				//Lesson 7
+				sushis = GameObject.Find ("sushisk");
 				codigo=sushis.GetComponent<LevelInf>();
 				imagen=gameObject.GetComponent<Image>();
 				imagen.sprite = codigo.ga;

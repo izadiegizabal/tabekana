@@ -12,7 +12,6 @@ public class SushiSpawner : MonoBehaviour {
 	public string simpleKSprite;						//Simple katakana sushi sprites for it's child RandomSushi script
 	public string composedKSprite;						//Composed katakana sushi sprites for it's child RandomSushi script
 
-	private int level;									//The current level for it's child RandomSushi script
 	private int spawnedSushi = 0;						//To have a counter of the spawned sushi
 	void Start () {
 		// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.

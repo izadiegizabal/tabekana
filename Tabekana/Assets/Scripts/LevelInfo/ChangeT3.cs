@@ -4,9 +4,7 @@ using UnityEngine.UI;
 using System;
 
 public class ChangeT3: MonoBehaviour {
-	//public LevelInf codigo;
-	String value = "h 16";
-	//en esta varibale cambiar por el metodo que lanza alba 
+	
 	private Text txtRef;
 
 
@@ -14,7 +12,8 @@ public class ChangeT3: MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		txtRef = GetComponent<Text>();//or provide from somewhere else (e.g. if you want via find GameObject.Find("CountText").GetComponent<Text>();)
-
+		String value = null;
+		value = GlobalVariables.actLearnLvl;
 
 		Char delimiter = ' ';
 		String[] substrings = value.Split(delimiter);
@@ -23,8 +22,7 @@ public class ChangeT3: MonoBehaviour {
 		char u = char.Parse (a);
 		int d = int.Parse (b);
 
-		if (u.Equals('h')) {
-			//Hiragana
+
 			if (d==16){
 				//Lesson 1
 				//m_tittletex="Lesson 1";
@@ -57,7 +55,7 @@ public class ChangeT3: MonoBehaviour {
 			}
 
 
-		}
+
 	}
 
 	// Update is called once per frame

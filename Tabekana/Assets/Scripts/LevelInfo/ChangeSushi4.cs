@@ -12,8 +12,8 @@ public class ChangeSushi4: MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		String value = "h 15";
-		//en esta varibale cambiar por el metodo que lanza alba 
+		String value = null;
+		value = GlobalVariables.actLearnLvl;
 
 		Char delimiter = ' ';
 		String[] substrings = value.Split(delimiter);
@@ -129,6 +129,119 @@ public class ChangeSushi4: MonoBehaviour {
 			if (d==15) {
 				//Lesson 15
 				sushis = GameObject.Find ("sushis");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.rb;
+			}
+
+		}
+		if (u.Equals('k')) {
+			//Katakana
+			if (d==1){
+				//Lesson 1
+				//m_tittletex="Lesson 1";
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.d;
+
+			}
+			if (d==2){
+				//Lesson 2
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.i;
+			}
+			if (d==3) {
+				//Lesson 3
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.n;
+			}
+			if (d==4) {
+				//Lesson 4
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.s;
+			}
+			if (d==5) {
+				//Lesson 5
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.x;
+			}
+			if (d==6) {
+				//Lesson 6
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.ca;
+			}
+			if (d==7) {
+				//Lesson 7
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.ha;
+			}
+			if (d==8) {
+				//Lesson 8
+				//vacio
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.tb;
+			}
+			if (d==9) {
+				//Lesson 9
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.pa;
+			}
+			if (d==10) {
+				//Lesson 10
+				//vacio
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.tb;
+			}
+			if (d==11) {
+				//Lesson 11
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.xa;
+			}
+			if (d==12) {
+				//Lesson 12
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.cb;
+			}
+			if (d==13) {
+				//Lesson 13
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.hb;
+			}
+			if (d==14) {
+				//Lesson 14
+				sushis = GameObject.Find ("sushisk");
+				codigo=sushis.GetComponent<LevelInf>();
+				imagen=gameObject.GetComponent<Image>();
+				imagen.sprite = codigo.mb;
+			}
+			if (d==15) {
+				//Lesson 15
+				sushis = GameObject.Find ("sushisk");
 				codigo=sushis.GetComponent<LevelInf>();
 				imagen=gameObject.GetComponent<Image>();
 				imagen.sprite = codigo.rb;
