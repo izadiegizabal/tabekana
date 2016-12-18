@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 	public GameObject sushi;                			// The enemy prefab to be spawned.
-	public float spawnTime = 3f;            			// How long between each spawn.
+	public float spawnTime = 1f;            			// How long between each spawn.
 	public Transform[] spawnPoints;         			// An array of the spawn points this enemy can spawn from.
 	public string simpleHSprite;						//Simple hiragana sushi sprites for it's child RandomSushi script
 	public string composedHSprite;						//Composed hiragana sushi sprites for it's child RandomSushi script
@@ -23,35 +23,11 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 
 	void Spawn (){
-
-		if (GlobalVariables.score <= 10) {
-			CancelInvoke ();	// To cancel last InvokeRepeating not to overlap InvokeRepeating (many sushis)
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
+		CancelInvoke ();
+		if (spawnTime - (GlobalVariables.score * 0.001) > 1) {
+			spawnTime = spawnTime - (float)(GlobalVariables.score * 0.001);
 		}
-		else if (GlobalVariables.score > 10 && GlobalVariables.score <= 20) {
-			CancelInvoke ();
-			spawnTime = 2f; 
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
-		}
-		else if (GlobalVariables.score > 20 && GlobalVariables.score <= 30) {
-			CancelInvoke ();
-			spawnTime = 1.5f; 
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
-		}
-		else if (GlobalVariables.score > 30 && GlobalVariables.score <= 40) {
-			CancelInvoke ();
-			spawnTime = 1f; 
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
-		}
-		else if (GlobalVariables.score > 40) {
-			CancelInvoke ();
-			spawnTime = 0.75f; 
-			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
-		}
+		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 
 		// Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
