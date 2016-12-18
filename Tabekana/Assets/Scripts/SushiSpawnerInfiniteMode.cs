@@ -5,12 +5,13 @@ using UnityEngine.UI;
 public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 	public GameObject sushi;                			// The enemy prefab to be spawned.
-	public float spawnTime = 3f;            			// How long between each spawn.
+	public float spawnTime = 1f;            			// How long between each spawn.
 	public Transform[] spawnPoints;         			// An array of the spawn points this enemy can spawn from.
 	public string simpleHSprite;						//Simple hiragana sushi sprites for it's child RandomSushi script
 	public string composedHSprite;						//Composed hiragana sushi sprites for it's child RandomSushi script
 	public string simpleKSprite;						//Simple katakana sushi sprites for it's child RandomSushi script
 	public string composedKSprite;						//Composed katakana sushi sprites for it's child RandomSushi script
+	int cont = 2;
 
 	private int level;									//The current level for it's child RandomSushi script
 	private int spawnedSushi = 0;						//To have a counter of the spawned sushi
@@ -23,36 +24,43 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 
 	void Spawn (){
+		CancelInvoke ();
+		if (spawnTime - (GlobalVariables.score * 0.01) > 0.8) {
+			spawnTime = spawnTime - (float)(GlobalVariables.score * 0.01);
+		}
+		InvokeRepeating ("Spawn", spawnTime, spawnTime);
+		print (spawnTime);
 
-		if (GlobalVariables.score <= 10) {
+/*		if (GlobalVariables.score <= 10) {
 			CancelInvoke ();	// To cancel last InvokeRepeating not to overlap InvokeRepeating (many sushis)
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
+			print (spawnTime);
 		}
 		else if (GlobalVariables.score > 10 && GlobalVariables.score <= 20) {
 			CancelInvoke ();
 			spawnTime = 2f; 
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
+			print (spawnTime);
 		}
 		else if (GlobalVariables.score > 20 && GlobalVariables.score <= 30) {
 			CancelInvoke ();
 			spawnTime = 1.5f; 
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
+			print (spawnTime);
 		}
 		else if (GlobalVariables.score > 30 && GlobalVariables.score <= 40) {
 			CancelInvoke ();
 			spawnTime = 1f; 
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
+			print (spawnTime);
 		}
 		else if (GlobalVariables.score > 40) {
 			CancelInvoke ();
 			spawnTime = 0.75f; 
 			InvokeRepeating ("Spawn", spawnTime, spawnTime);
-
+			print (spawnTime);
 		}
-
+*/
 		// Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
 
