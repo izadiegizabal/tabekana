@@ -196,11 +196,14 @@
      <Compile Include="Assets\Scripts\0 - Others\Enums.cs" />
      <Compile Include="Assets\Scripts\0 - Others\Physics2DObject.cs" />
      <Compile Include="Assets\Scripts\0 - Others\Utils.cs" />
+     <Compile Include="Assets\Scripts\Audio-FX\ChangeBGMusic.cs" />
+     <Compile Include="Assets\Scripts\Audio-FX\ExplodeRandomAudio.cs" />
+     <Compile Include="Assets\Scripts\Audio-FX\MusicSingleton.cs" />
+     <Compile Include="Assets\Scripts\Audio-FX\ShurikenSoundEffect.cs" />
      <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\AutoShurikenSpawner.cs" />
      <Compile Include="Assets\Scripts\ButtonSettings.cs" />
      <Compile Include="Assets\Scripts\Explode.cs" />
-     <Compile Include="Assets\Scripts\ExplodeRandomAudio.cs" />
      <Compile Include="Assets\Scripts\FindTarget.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\GlobalVariables.cs" />
@@ -247,7 +250,6 @@
      <Compile Include="Assets\Scripts\ShowMaxScore.cs" />
      <Compile Include="Assets\Scripts\ShowScore.cs" />
      <Compile Include="Assets\Scripts\ShurikenBar.cs" />
-     <Compile Include="Assets\Scripts\ShurikenSoundEffect.cs" />
      <Compile Include="Assets\Scripts\ShurikenToSushi.cs" />
      <Compile Include="Assets\Scripts\SushiDied.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
