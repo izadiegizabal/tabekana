@@ -23,11 +23,6 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 
 	void Spawn (){
-		CancelInvoke ();
-		if (spawnTime - (GlobalVariables.score * 0.01) > 1) {
-			spawnTime = spawnTime - (float)(GlobalVariables.score * 0.01);
-		}
-		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 
 		if (GlobalVariables.score <= 10) {
 			CancelInvoke ();	// To cancel last InvokeRepeating not to overlap InvokeRepeating (many sushis)
