@@ -237,11 +237,13 @@
     <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\AutoShurikenSpawner.cs" />
     <Compile Include="Assets\Scripts\ButtonSettings.cs" />
+    <Compile Include="Assets\Scripts\ButtonWinInfinite.cs" />
     <Compile Include="Assets\Scripts\Explode.cs" />
     <Compile Include="Assets\Scripts\FindTarget.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\GlobalVariables.cs" />
     <Compile Include="Assets\Scripts\GoBack.cs" />
+    <Compile Include="Assets\Scripts\InfiniteCleared.cs" />
     <Compile Include="Assets\Scripts\InputAnimation.cs" />
     <Compile Include="Assets\Scripts\KeyBoard.cs" />
     <Compile Include="Assets\Scripts\LessonButton.cs" />
