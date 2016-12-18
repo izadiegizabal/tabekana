@@ -196,7 +196,6 @@
      <Compile Include="Assets\Scripts\0 - Others\Enums.cs" />
      <Compile Include="Assets\Scripts\0 - Others\Physics2DObject.cs" />
      <Compile Include="Assets\Scripts\0 - Others\Utils.cs" />
-     <Compile Include="Assets\Scripts\Audio-FX\ChangeBGMusic.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\ExplodeRandomAudio.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\MusicSingleton.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\ShurikenSoundEffect.cs" />
@@ -265,6 +264,9 @@
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

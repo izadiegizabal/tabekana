@@ -31,20 +31,26 @@ public class MusicSingleton : MonoBehaviour {
 	void OnLevelWasLoaded(){
 		currentScene = SceneManager.GetActiveScene ().name;
 
-		if (currentScene.Equals ("GameLevelChooser") || currentScene.Equals ("YouLose") || currentScene.Equals ("YouWin") || currentScene.Equals ("LessonChooser") || currentScene.Equals ("LevelInfo1") || currentScene.Equals ("LevelInfo")) {
+		if (currentScene.Equals ("GameLevelChooser") || currentScene.Equals ("YouLose") || currentScene.Equals ("LessonChooser") || currentScene.Equals ("LevelInfo1") || currentScene.Equals ("LevelInfo")) {
 			currentScene = "MainMenu";
 		}
 
-		if (SceneManager.GetActiveScene ().name.Equals ("InfiniteMode") ) {
+		if (SceneManager.GetActiveScene ().name.Equals ("InfiniteMode")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("samurai-sword") as AudioClip;
-			instance.GetComponent<AudioSource>().volume = GetComponent<AudioSource>().volume;
-			instance.GetComponent<AudioSource>().Play();
+			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
+			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
 		} else if (SceneManager.GetActiveScene ().name.Equals ("LevelStaging")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("samurai-dance") as AudioClip;
-			instance.GetComponent<AudioSource>().volume = GetComponent<AudioSource>().volume;
-			instance.GetComponent<AudioSource>().Play();
+			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
+			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
+		} else if(SceneManager.GetActiveScene ().name.Equals ("YouWin")){
+			instance.GetComponent<AudioSource> ().clip = Resources.Load ("ondo") as AudioClip;
+			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
+			instance.GetComponent<AudioSource> ().Play ();
+			previousScene = currentScene;
+			
 		} else if (previousScene != null && !previousScene.Equals("MainMenu")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("yurari-yurari") as AudioClip;
 			instance.GetComponent<AudioSource>().volume = GetComponent<AudioSource>().volume;
