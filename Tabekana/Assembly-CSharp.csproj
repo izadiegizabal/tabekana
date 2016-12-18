@@ -197,6 +197,7 @@
      <Compile Include="Assets\Scripts\0 - Others\Physics2DObject.cs" />
      <Compile Include="Assets\Scripts\0 - Others\Utils.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\ExplodeRandomAudio.cs" />
+     <Compile Include="Assets\Scripts\Audio-FX\IncorrectFX.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\MusicSingleton.cs" />
      <Compile Include="Assets\Scripts\Audio-FX\ShurikenSoundEffect.cs" />
      <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />

@@ -41,6 +41,10 @@ public class ButtonSettings : MonoBehaviour {
     public void ButtonMenu()
     {
         SceneManager.LoadScene("GameLevelChooser");
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
     }
 
     public void ButtonNext()
@@ -58,10 +62,18 @@ public class ButtonSettings : MonoBehaviour {
         lvlnum = lvlnum + 1;
         GlobalVariables.actGameLvl = lvltipe + lvlnum;
         SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
     }
 
     public void ButtonRepeat(){
         SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
     }
 
     public void ButtonLesson(){
@@ -86,6 +98,10 @@ public class ButtonSettings : MonoBehaviour {
         }else{
             SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
         }
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
     } 
 
 }

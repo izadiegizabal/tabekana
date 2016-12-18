@@ -27,9 +27,9 @@ public class LessonChooser : MonoBehaviour{
 				SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
 			}
 		//}
-
-
-
-
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
 	}
 }
