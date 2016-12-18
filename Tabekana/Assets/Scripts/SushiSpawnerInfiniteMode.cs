@@ -16,6 +16,7 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 	private int spawnedSushi = 0;						//To have a counter of the spawned sushi
 	void Start () {
 		// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
+		GlobalVariables.maxScore = PlayerPrefs.GetInt("maxScore", GlobalVariables.maxScore);	// Recover the global variable (despite the fact that the user closed the app last time)
 		Spawn();
 		//InvokeRepeating ("Spawn", spawnTime, spawnTime); 
 	}

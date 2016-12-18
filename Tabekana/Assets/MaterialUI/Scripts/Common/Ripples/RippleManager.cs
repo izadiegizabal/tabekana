@@ -91,7 +91,8 @@ namespace MaterialUI
 
             Ripple ripple = m_QueuedRipples.Dequeue();
             m_ActiveRipples.Add(ripple);
-            ripple.gameObject.SetActive(true);
+			if(ripple != null)
+            	ripple.gameObject.SetActive(true);
             return ripple;
         }
 
