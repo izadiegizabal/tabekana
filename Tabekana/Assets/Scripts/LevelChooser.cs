@@ -10,6 +10,9 @@ public class LevelChooser : MonoBehaviour{
         //GlobalVariables.actLearnLvl = level;
 		GlobalVariables.actGameLvl = level;
 		SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
-
+		gameObject.AddComponent <AudioSource>();
+		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+		GetComponent<AudioSource>().volume = 1;
+		GetComponent<AudioSource>().Play();
     }
 }

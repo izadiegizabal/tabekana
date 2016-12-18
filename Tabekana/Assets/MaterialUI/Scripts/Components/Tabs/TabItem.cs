@@ -72,6 +72,10 @@ namespace MaterialUI
             if (interactable)
             {
                 m_TabView.SetPage(id);
+				gameObject.AddComponent <AudioSource>();
+				GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+				GetComponent<AudioSource>().volume = 1;
+				GetComponent<AudioSource>().Play();
             }
         }
 
