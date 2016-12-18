@@ -18,7 +18,6 @@ public class ButtonSettings : MonoBehaviour {
         GlobalVariables.launchPermission = false;
         GlobalVariables.destroyedSushi = 0;
 
-       
 
         if (GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[0] == "h" 
             && GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[1].Equals(lvlunlockh)
@@ -61,9 +60,32 @@ public class ButtonSettings : MonoBehaviour {
         SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
     }
 
-    public void ButtonRepeat()
-    {
+    public void ButtonRepeat(){
         SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
     }
+
+    public void ButtonLesson(){
+
+        string lvltipe;
+        int lvlnum;
+
+        if (GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[0] == "h")
+        {
+            lvltipe = "h ";
+        }
+        else
+        {
+            lvltipe = "k ";
+        }
+        lvlnum = int.Parse(GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[1]);
+        lvlnum = lvlnum + 1;
+        GlobalVariables.actLearnLvl = lvltipe + lvlnum;
+
+        if (lvlnum < 16) {
+            SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
+        }else{
+            SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
+        }
+    } 
 
 }

@@ -76,35 +76,34 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Common">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Security">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Stores">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="Apple">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
-    </Reference>
-    <Reference Include="Tizen">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Tizen\Tizen.dll</HintPath>
-    </Reference>
-    <Reference Include="winrt">
-      <HintPath>Assets\Plugins\UnityPurchasing\winrt\winrt.dll</HintPath>
+    <Reference Include="TexturePacker">
+      <HintPath>Assets\Extensions\TexturePacker\Lib\TexturePacker.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Tabekana.Plugins.csproj">
-      <Project>{766C8F43-4189-B3B4-A6EE-DD9ECC8ACFDF}</Project>
-      <Name>Tabekana.Plugins</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPAnimationEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshAnimationEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshSpriteAnimationEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureNoHelperEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSkinnedMeshTextureEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteAnimationEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteTextureEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPStaticSpriteEx.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPAtlasesData.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPHelper.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\TPCore\Templates\TPFlags.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AnimationApiTest.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIAnimationExample.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIExample.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\Atlases.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyAtlasController.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyFireAnimation.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyMeshTexture.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyRotation.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTeslaAnimation.cs" />
+    <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTextures.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LengthValidation.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LetterValidation.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\08 - Sliders\Example08.cs" />
@@ -232,6 +231,9 @@
     <Compile Include="Assets\Scripts\0 - Others\Enums.cs" />
     <Compile Include="Assets\Scripts\0 - Others\Physics2DObject.cs" />
     <Compile Include="Assets\Scripts\0 - Others\Utils.cs" />
+    <Compile Include="Assets\Scripts\Audio-FX\ExplodeRandomAudio.cs" />
+    <Compile Include="Assets\Scripts\Audio-FX\MusicSingleton.cs" />
+    <Compile Include="Assets\Scripts\Audio-FX\ShurikenSoundEffect.cs" />
     <Compile Include="Assets\Scripts\AutoObjectSpawner.cs" />
     <Compile Include="Assets\Scripts\AutoShurikenSpawner.cs" />
     <Compile Include="Assets\Scripts\ButtonSettings.cs" />
@@ -240,8 +242,10 @@
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\GlobalVariables.cs" />
     <Compile Include="Assets\Scripts\GoBack.cs" />
+    <Compile Include="Assets\Scripts\InputAnimation.cs" />
     <Compile Include="Assets\Scripts\KeyBoard.cs" />
     <Compile Include="Assets\Scripts\LessonButton.cs" />
+    <Compile Include="Assets\Scripts\LessonChooser.cs" />
     <Compile Include="Assets\Scripts\LevelChooser.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\ChangeS1.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\ChangeS2.cs" />
@@ -265,6 +269,7 @@
     <Compile Include="Assets\Scripts\LevelInfo\ChangeText3.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\ChangeText4.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\ChangeText5.cs" />
+    <Compile Include="Assets\Scripts\LevelInfo\ChangeText6.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\ChangeTextLevel.cs" />
     <Compile Include="Assets\Scripts\LevelInfo\LevelInf.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
@@ -272,22 +277,30 @@
     <Compile Include="Assets\Scripts\LevelUnlockKatakana.cs" />
     <Compile Include="Assets\Scripts\RandomChar.cs" />
     <Compile Include="Assets\Scripts\RandomSushi.cs" />
+    <Compile Include="Assets\Scripts\RandomSushiInfinite.cs" />
     <Compile Include="Assets\Scripts\ResourceNameRomaji.cs" />
     <Compile Include="Assets\Scripts\Rice.cs" />
     <Compile Include="Assets\Scripts\ShowInput.cs" />
+    <Compile Include="Assets\Scripts\ShowMaxScore.cs" />
+    <Compile Include="Assets\Scripts\ShowScore.cs" />
     <Compile Include="Assets\Scripts\ShurikenBar.cs" />
     <Compile Include="Assets\Scripts\ShurikenToSushi.cs" />
     <Compile Include="Assets\Scripts\SushiDied.cs" />
     <Compile Include="Assets\Scripts\SushiSpawner.cs" />
+    <Compile Include="Assets\Scripts\SushiSpawnerInfiniteMode.cs" />
     <Compile Include="Assets\Scripts\TimedSelfDestruct.cs" />
     <Compile Include="Assets\Scripts\levelCleared.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\TutorialAtlas_data.txt" />
+    <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\example_data.txt" />
     <None Include="Assets\MaterialUI\CHANGELOG.txt" />
     <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
     <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
     <None Include="Assets\MaterialUI\Materials\SignedDistanceFieldUI.shader" />
     <None Include="Assets\MaterialUI\README.txt" />
+    <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+    <None Include="Assets\codeandweb.com\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
