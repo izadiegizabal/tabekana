@@ -69,7 +69,6 @@
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyRotation.cs" />
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTeslaAnimation.cs" />
      <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTextures.cs" />
-     <Compile Include="Assets\InputAnimation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LengthValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LetterValidation.cs" />
      <Compile Include="Assets\MaterialUI\Examples\Scripts\08 - Sliders\Example08.cs" />
@@ -201,10 +200,12 @@
      <Compile Include="Assets\Scripts\AutoShurikenSpawner.cs" />
      <Compile Include="Assets\Scripts\ButtonSettings.cs" />
      <Compile Include="Assets\Scripts\Explode.cs" />
+     <Compile Include="Assets\Scripts\ExplodeRandomAudio.cs" />
      <Compile Include="Assets\Scripts\FindTarget.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\GlobalVariables.cs" />
      <Compile Include="Assets\Scripts\GoBack.cs" />
+     <Compile Include="Assets\Scripts\InputAnimation.cs" />
      <Compile Include="Assets\Scripts\KeyBoard.cs" />
      <Compile Include="Assets\Scripts\LessonButton.cs" />
      <Compile Include="Assets\Scripts\LessonChooser.cs" />
@@ -246,6 +247,7 @@
      <Compile Include="Assets\Scripts\ShowMaxScore.cs" />
      <Compile Include="Assets\Scripts\ShowScore.cs" />
      <Compile Include="Assets\Scripts\ShurikenBar.cs" />
+     <Compile Include="Assets\Scripts\ShurikenSoundEffect.cs" />
      <Compile Include="Assets\Scripts\ShurikenToSushi.cs" />
      <Compile Include="Assets\Scripts\SushiDied.cs" />
      <Compile Include="Assets\Scripts\SushiSpawner.cs" />
@@ -261,9 +263,6 @@
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
