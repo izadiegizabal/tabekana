@@ -9,6 +9,13 @@ public class LevelLocked : MonoBehaviour {
 	public Image imagen;	
 	// Use this for initialization
 	void Start () {
+		if (PlayerPrefs.GetInt ("levelhira") == 0) {
+			PlayerPrefs.SetInt ("levelhira", 1);
+		}
+		if (PlayerPrefs.GetInt ("levelkata") == 0) {
+			PlayerPrefs.SetInt ("levelkata", 1);
+		} 
+
 		String value = null;
 		value = GlobalVariables.actLearnLvl;
 
@@ -21,7 +28,7 @@ public class LevelLocked : MonoBehaviour {
 
 		if (u.Equals ('h')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockHira+1 < d) {
+			if (PlayerPrefs.GetInt ("levelhira") < d) {
 				imagen=gameObject.GetComponent<Image>();
 				imagen.sprite = locke;
 			}
@@ -29,7 +36,7 @@ public class LevelLocked : MonoBehaviour {
 		}
 		if (u.Equals ('k')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockKata+1 < d) {
+			if (PlayerPrefs.GetInt ("levelkata") < d) {
 				imagen=gameObject.GetComponent<Image>();
 				imagen.sprite = locke;
 			}

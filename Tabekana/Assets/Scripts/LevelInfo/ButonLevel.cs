@@ -9,6 +9,12 @@ public class ButonLevel : MonoBehaviour {
 	private string level;
 	// Use this for initialization
 	public void Click () {
+		if (PlayerPrefs.GetInt ("levelhira") == 0) {
+			PlayerPrefs.SetInt ("levelhira", 1);
+		}
+		if (PlayerPrefs.GetInt ("levelkata") == 0) {
+			PlayerPrefs.SetInt ("levelkata", 1);
+		} 
 		// Guardo en la variable global el nivel
 		//GlobalVariables.actGameLvl = level;
 		level = GlobalVariables.actLearnLvl;
@@ -25,26 +31,34 @@ public class ButonLevel : MonoBehaviour {
 
 		if (u.Equals ('h')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockHira+1 >= d) {
+			if (PlayerPrefs.GetInt ("levelhira")+1 > d) {
 				GlobalVariables.actGameLvl = level;
-				SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
+				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+				//SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 
+			}
+			if (PlayerPrefs.GetInt ("levelhira") >= d) {
+				gameObject.AddComponent <AudioSource>();
+				GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+				GetComponent<AudioSource>().volume = 1;
+				GetComponent<AudioSource>().Play();
 			}
 
 		}if (u.Equals ('k')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockKata+1 >= d) {
+			if (PlayerPrefs.GetInt ("levelkata")+1 > d) {
 				GlobalVariables.actGameLvl = level;
-				SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
+				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+				//SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 
 			}
-
+			if (PlayerPrefs.GetInt ("levelkata") >= d) {
+				gameObject.AddComponent <AudioSource>();
+				GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
+				GetComponent<AudioSource>().volume = 1;
+				GetComponent<AudioSource>().Play();
+			} 
 		}
-
-		gameObject.AddComponent <AudioSource>();
-		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
-		GetComponent<AudioSource>().volume = 1;
-		GetComponent<AudioSource>().Play();
 	}
 	
 	// Update is called once per frame

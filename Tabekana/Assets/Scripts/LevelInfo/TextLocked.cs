@@ -9,6 +9,13 @@ public class TextLocked : MonoBehaviour {
 	private Text txtRef;
 	// Use this for initialization
 	void Start () {
+		if (PlayerPrefs.GetInt ("levelhira") == 0) {
+			PlayerPrefs.SetInt ("levelhira", 1);
+		}
+		if (PlayerPrefs.GetInt ("levelkata") == 0) {
+			PlayerPrefs.SetInt ("levelkata", 1);
+		} 
+
 		String value = null;
 		value = GlobalVariables.actLearnLvl;
 
@@ -22,7 +29,7 @@ public class TextLocked : MonoBehaviour {
 
 		if (u.Equals ('h')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockHira + 1 < d) {
+			if (PlayerPrefs.GetInt ("levelhira") < d) {
 				txtRef.text = " ";
 			} else {
 				txtRef.text = "Level " + b.ToString ();
@@ -32,7 +39,7 @@ public class TextLocked : MonoBehaviour {
 		}
 		if (u.Equals ('k')) {
 			//Hiragana
-			if (GlobalVariables.levelUnlockKata + 1 < d) {
+			if (PlayerPrefs.GetInt ("levelkata") < d) {
 				txtRef.text = " ";
 			} else {
 				txtRef.text = "Level " + b.ToString ();

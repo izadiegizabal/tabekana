@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/MainMenu.unity
-=======
-- path: Assets/Scenes/LevelInfo.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
