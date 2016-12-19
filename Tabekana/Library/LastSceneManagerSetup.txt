@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LessonChooser.unity
+- path: Assets/Scenes/Resum.unity
   isLoaded: 1
   isActive: 1
