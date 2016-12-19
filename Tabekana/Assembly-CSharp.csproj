@@ -215,6 +215,7 @@
      <Compile Include="Assets\Scripts\LessonButton.cs" />
      <Compile Include="Assets\Scripts\LessonChooser.cs" />
      <Compile Include="Assets\Scripts\LevelChooser.cs" />
+     <Compile Include="Assets\Scripts\LevelInfo\ButonLevel.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS1.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS2.cs" />
      <Compile Include="Assets\Scripts\LevelInfo\ChangeS3.cs" />
@@ -269,9 +270,6 @@
      <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
      <None Include="Assets\MaterialUI\CHANGELOG.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
