@@ -81,3 +81,9 @@
 /Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
 /Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.HoloLens.dll
 /Users/izadi/Documents/GitHub/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/Claus/Documents/tabekana/Tabekana/Temp/bin/Debug/TexturePacker.dll

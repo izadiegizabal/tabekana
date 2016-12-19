@@ -23,8 +23,13 @@ public class ChangeTextLevel: MonoBehaviour {
 		char u = char.Parse (a);
 		int d = int.Parse (b);
 
+		if (u.Equals ('h')) {
+			txtRef.text = "Lesson " + b.ToString ()+ " (あ)";
+		}
+		if (u.Equals ('k')) {
+			txtRef.text = "Lesson " + b.ToString ()+ " (ア)";
 
-		txtRef.text = "Lesson " + b.ToString();
+		}
 
 	}
 
