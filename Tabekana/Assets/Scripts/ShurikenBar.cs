@@ -25,19 +25,11 @@ public class ShurikenBar : MonoBehaviour {
 		if (fillAmount != 1) {
 			shurikenBar.fillAmount = fillAmount;
 		} else {
-			StartCoroutine (waitAnimation(0.5f));
+			SceneManager.LoadScene("YouWin");
 		}
 	}
 
 	private float Map(float value, float inMin, float inMax, float outMin, float outMax){
 		return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
-	}
-
-	IEnumerator waitAnimation(float sec){
-		yield return new WaitForSeconds(sec);
-		//Load Winning Scene and return, reset destroyed sushi counter
-		AsyncOperation ao = SceneManager.LoadSceneAsync("YouWin");
-		//SceneManager.LoadScene("YouWin", LoadSceneMode.Single);
-		GlobalVariables.destroyedSushi = 0;
 	}
 }

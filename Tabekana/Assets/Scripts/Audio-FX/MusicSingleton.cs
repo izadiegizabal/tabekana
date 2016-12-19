@@ -35,22 +35,22 @@ public class MusicSingleton : MonoBehaviour {
 			currentScene = "MainMenu";
 		}
 
-		if (SceneManager.GetActiveScene ().name.Equals ("InfiniteMode")) {
+		if (currentScene.Equals ("InfiniteMode")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("samurai-sword") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
-		} else if (SceneManager.GetActiveScene ().name.Equals ("LevelStaging")) {
+		} else if (currentScene.Equals ("LevelStaging")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("samurai-dance") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
-		} else if (SceneManager.GetActiveScene ().name.Equals ("YouWin") || SceneManager.GetActiveScene ().name.Equals ("WinInfinite")) {
+		} else if (currentScene.Equals ("YouWin") || SceneManager.GetActiveScene ().name.Equals ("WinInfinite")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("ondo") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
-		} else if(SceneManager.GetActiveScene ().name.Equals ("YouLose") || SceneManager.GetActiveScene ().name.Equals ("LoseInfinite")){
+		} else if(currentScene.Equals ("YouLose") || SceneManager.GetActiveScene ().name.Equals ("LoseInfinite")){
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("kanashimi-no-nakani") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
