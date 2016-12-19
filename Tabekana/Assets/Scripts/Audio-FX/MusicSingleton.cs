@@ -45,12 +45,12 @@ public class MusicSingleton : MonoBehaviour {
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
-		} else if (SceneManager.GetActiveScene ().name.Equals ("YouWin")) {
+		} else if (SceneManager.GetActiveScene ().name.Equals ("YouWin") || SceneManager.GetActiveScene ().name.Equals ("WinInfinite")) {
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("ondo") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();
 			previousScene = currentScene;
-		} else if(SceneManager.GetActiveScene ().name.Equals ("YouLose")){
+		} else if(SceneManager.GetActiveScene ().name.Equals ("YouLose") || SceneManager.GetActiveScene ().name.Equals ("LoseInfinite")){
 			instance.GetComponent<AudioSource> ().clip = Resources.Load ("kanashimi-no-nakani") as AudioClip;
 			instance.GetComponent<AudioSource> ().volume = GetComponent<AudioSource> ().volume;
 			instance.GetComponent<AudioSource> ().Play ();

@@ -12,11 +12,13 @@ public class GameOver : MonoBehaviour {
         GlobalVariables.spawnedSushi.Clear();
         GlobalVariables.launchPermission = false;
         GlobalVariables.destroyedSushi = 0;
+		GlobalVariables.score = 0;
     }
 
     public void ButtonMenu()
     {
-        SceneManager.LoadScene("GameLevelChooser");
+		AsyncOperation ao = SceneManager.LoadSceneAsync("GameLevelChooser");
+        //SceneManager.LoadScene("GameLevelChooser");
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
 		GetComponent<AudioSource>().volume = 1;
@@ -25,7 +27,8 @@ public class GameOver : MonoBehaviour {
 
     public void ButtonRepeat()
     {
-        SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
+		AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+        //SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
 		GetComponent<AudioSource>().volume = 1;
@@ -51,11 +54,13 @@ public class GameOver : MonoBehaviour {
 
         if (lvlnum < 16)
         {
-            SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
+			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo1");
+            //SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
         }
         else
         {
-            SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
+			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo");
+            //SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
         }
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;

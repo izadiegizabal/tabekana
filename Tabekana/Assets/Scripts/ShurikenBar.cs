@@ -36,7 +36,8 @@ public class ShurikenBar : MonoBehaviour {
 	IEnumerator waitAnimation(float sec){
 		yield return new WaitForSeconds(sec);
 		//Load Winning Scene and return, reset destroyed sushi counter
-		SceneManager.LoadScene("YouWin", LoadSceneMode.Single);
+		AsyncOperation ao = SceneManager.LoadSceneAsync("YouWin");
+		//SceneManager.LoadScene("YouWin", LoadSceneMode.Single);
 		GlobalVariables.destroyedSushi = 0;
 	}
 }

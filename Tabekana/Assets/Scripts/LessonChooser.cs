@@ -22,9 +22,11 @@ public class LessonChooser : MonoBehaviour{
 		//if (u.Equals ('h')) {
 			//Hiragana
 			if (d > 0 && d<16) {
-				SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
+				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo1");
+				//SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
 			}else{
-				SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
+				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo");
+				//SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
 			}
 		//}
 		gameObject.AddComponent <AudioSource>();

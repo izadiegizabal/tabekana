@@ -15,6 +15,13 @@ public class levelCleared : MonoBehaviour
 
     void Start()
     {
+		GlobalVariables.array3Characters = new string[3] { "_", "", "" };
+		GlobalVariables.inputArrayChanged = false;
+		GlobalVariables.spawnedSushi.Clear();
+		GlobalVariables.launchPermission = false;
+		GlobalVariables.destroyedSushi = 0;
+		GlobalVariables.score = 0;
+
         //para el nivel 22, eliminar y centrar botones
         if (GlobalVariables.actGameLvl.Equals("h 22") || GlobalVariables.actGameLvl.Equals("k 22")){
             if (GlobalVariables.actGameLvl.Equals("h 22")){

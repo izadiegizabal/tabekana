@@ -9,11 +9,11 @@ public class ShowScore : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		showScore = GetComponent<Text>();
-		showScore.text = "Score: " + GlobalVariables.score;
+		showScore.text = GlobalVariables.score.ToString();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		showScore.text = "Score: " + GlobalVariables.score;
+		showScore.text = GlobalVariables.score.ToString();
 	}
 }
