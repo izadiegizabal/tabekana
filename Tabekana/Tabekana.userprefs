@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShurikenBar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ButtonSettings.cs">
     <Files>
-      <File FileName="Assets/Scripts/Audio-FX/MusicSingleton.cs" Line="58" Column="25" />
-      <File FileName="Assets/Scripts/levelCleared.cs" Line="33" Column="35" />
-      <File FileName="Assets/Scripts/ShurikenBar.cs" Line="28" Column="27" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="10" Column="28" />
+      <File FileName="Assets\Scripts\Audio-FX\MusicSingleton.cs" Line="10" Column="1" />
+      <File FileName="Assets\Scripts\GoCorrectTabGame.cs" Line="7" Column="15" />
+      <File FileName="Assets\Scripts\SushiDiedInfinite.cs" Line="37" Column="1" />
+      <File FileName="Assets\Scripts\LessonChooser.cs" Line="15" Column="24" />
+      <File FileName="Assets\Scripts\LevelInfo\ChangeTextLevel.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\ButtonSettings.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

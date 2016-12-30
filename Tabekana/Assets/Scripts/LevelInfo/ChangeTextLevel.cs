@@ -21,7 +21,6 @@ public class ChangeTextLevel: MonoBehaviour {
 		string a = substrings [0];
 		string b = substrings [1];
 		char u = char.Parse (a);
-		int d = int.Parse (b);
 
 		if (u.Equals ('h')) {
 			txtRef.text = "Lesson " + b.ToString ()+ " (あ)";

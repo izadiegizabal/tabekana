@@ -26,7 +26,7 @@ public class GoBack : MonoBehaviour {
 				GlobalVariables.destroyedSushi = 0;
 				GlobalVariables.score = 0;
 				//Go to the specified scene (the previous one)
-				AsyncOperation ao = SceneManager.LoadSceneAsync(sceneName);
+				SceneManager.LoadSceneAsync(sceneName);
 				//SceneManager.LoadScene (sceneName, LoadSceneMode.Single);
 				return;
 			}

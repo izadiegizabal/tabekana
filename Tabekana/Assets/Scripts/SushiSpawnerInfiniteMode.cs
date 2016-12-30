@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 	public GameObject sushi;                			// The enemy prefab to be spawned.
-	public float spawnTime = 1f;            			// How long between each spawn.
+	public float spawnTime = 1.5f;            			// How long between each spawn.
 	public Transform[] spawnPoints;         			// An array of the spawn points this enemy can spawn from.
 	public string simpleHSprite;						//Simple hiragana sushi sprites for it's child RandomSushi script
 	public string composedHSprite;						//Composed hiragana sushi sprites for it's child RandomSushi script
@@ -36,8 +36,8 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 
 	void Spawn (){
 		CancelInvoke ();
-		if (spawnTime - (GlobalVariables.score * 0.0005) > 1) {
-			spawnTime = spawnTime - (float)(GlobalVariables.score * 0.0005);
+		if (spawnTime - (GlobalVariables.score * 0.0002) > 1) {
+			spawnTime = spawnTime - (float)(GlobalVariables.score * 0.0002);
 		}
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 
@@ -80,21 +80,37 @@ public class SushiSpawnerInfiniteMode : MonoBehaviour {
 			if (spawnKana <= maxHira) {
 				comp.simple = simpleHSprite;
 				comp.composed = composedHSprite;
-				comp.level = maxHira;	// To create a random level between 1 and the last level unlocked.
+				if(maxHira == 1 || maxHira == 22){
+					comp.level = maxHira;	// To create a random level between 1 and the last level unlocked.	
+				} else {
+					comp.level = maxHira - 1; 
+				}
 			} else if (spawnKana > maxKata) {
 				comp.simple = simpleKSprite;
 				comp.composed = composedKSprite;
-				comp.level = maxKata;	// To create a random level between 1 and the last level unlocked.
+				if(maxKata == 1 || maxKata == 22){
+					comp.level = maxKata;	// To create a random level between 1 and the last level unlocked.	
+				} else {
+					comp.level = maxKata - 1; 
+				}
 			}
 		} else {
 			if(spawnKana > maxHira){
 				comp.simple = simpleHSprite;
 				comp.composed = composedHSprite;
-				comp.level = maxHira;	// To create a random level between 1 and the last level unlocked.
+				if(maxHira == 1 || maxHira == 22){
+					comp.level = maxHira;	// To create a random level between 1 and the last level unlocked.	
+				} else {
+					comp.level = maxHira - 1; 
+				}
 			} else if(spawnKana <= maxKata){
 				comp.simple = simpleKSprite;
 				comp.composed = composedKSprite;
-				comp.level = maxKata;	// To create a random level between 1 and the last level unlocked.º
+				if(maxKata == 1 || maxKata == 22){
+					comp.level = maxKata;	// To create a random level between 1 and the last level unlocked.	
+				} else {
+					comp.level = maxKata - 1; 
+				}
 			}
 		}
 

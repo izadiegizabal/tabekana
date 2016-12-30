@@ -14,18 +14,16 @@ public class LessonChooser : MonoBehaviour{
 
 		Char delimiter = ' ';
 		String[] substrings = level.Split(delimiter);
-		string a = substrings [0];
 		string b = substrings [1];
-		char u = char.Parse (a);
 		int d = int.Parse (b);
 
 		//if (u.Equals ('h')) {
 			//Hiragana
 			if (d > 0 && d<16) {
-				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo1");
+				SceneManager.LoadSceneAsync("LevelInfo1");
 				//SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
 			}else{
-				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo");
+				SceneManager.LoadSceneAsync("LevelInfo");
 				//SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
 			}
 		//}

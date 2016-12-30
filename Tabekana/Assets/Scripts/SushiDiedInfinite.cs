@@ -17,7 +17,7 @@ public class SushiDiedInfinite : MonoBehaviour {
 
 	//Load the level with the name given as the string argument
 	public void loadLevel(string sceneName){
-		AsyncOperation ao = SceneManager.LoadSceneAsync(sceneName);
+		SceneManager.LoadSceneAsync(sceneName);
 		//SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
 	}
 
@@ -34,11 +34,11 @@ public class SushiDiedInfinite : MonoBehaviour {
 	IEnumerator waitAnimation(float sec){
 		yield return new WaitForSeconds(sec);
 		if(GlobalVariables.score == GlobalVariables.maxScore){
-			AsyncOperation ao = SceneManager.LoadSceneAsync("WinInfinite");
+			SceneManager.LoadSceneAsync("WinInfinite");
 			//SceneManager.LoadScene("WinInfinite", LoadSceneMode.Single);
 		}
 		else{
-			AsyncOperation ao = SceneManager.LoadSceneAsync("LoseInfinite");
+			SceneManager.LoadSceneAsync("LoseInfinite");
 			//SceneManager.LoadScene("LoseInfinite", LoadSceneMode.Single);
 		}
 		GlobalVariables.destroyedSushi = 0;

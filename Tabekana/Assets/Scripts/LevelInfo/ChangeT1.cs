@@ -18,9 +18,7 @@ public class ChangeT1: MonoBehaviour {
 
 		Char delimiter = ' ';
 		String[] substrings = value.Split(delimiter);
-		string a = substrings [0];
 		string b = substrings [1];
-		char u = char.Parse (a);
 		int d = int.Parse (b);
 
 			if (d==16){

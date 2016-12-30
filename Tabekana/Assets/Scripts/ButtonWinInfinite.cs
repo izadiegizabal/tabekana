@@ -20,7 +20,7 @@ public class ButtonWinInfinite : MonoBehaviour
 
     public void ButtonMenu()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("MainMenu");
+		SceneManager.LoadSceneAsync("MainMenu");
         //SceneManager.LoadScene("MainMenu");
 		GlobalVariables.score = 0;
     }
@@ -28,14 +28,14 @@ public class ButtonWinInfinite : MonoBehaviour
 
     public void ButtonRepeat()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("InfiniteMode");
+		SceneManager.LoadSceneAsync("InfiniteMode");
         //SceneManager.LoadScene("InfiniteMode", LoadSceneMode.Single);
 		GlobalVariables.score = 0;
     }
 
     public void ButtonLessons()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("LessonChooser");
+		SceneManager.LoadSceneAsync("LessonChooser");
         //SceneManager.LoadScene("LessonChooser", LoadSceneMode.Single);
 		GlobalVariables.score = 0;
     }

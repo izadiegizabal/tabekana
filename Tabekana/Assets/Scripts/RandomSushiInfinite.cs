@@ -16,8 +16,6 @@ public class RandomSushiInfinite : MonoBehaviour {
 	private  int currentSprite;
 	//Until what sprite do we have to take into the random pool
 	private int untilWhat;
-	//Default value of how many sushis there are in each level (for the odds calculation)
-	private int levelSushi = 5;
 
 	void Start () {
 		//If we have the simple sprites
@@ -39,7 +37,7 @@ public class RandomSushiInfinite : MonoBehaviour {
 				sprites = Resources.LoadAll<Sprite> (simple);
 			}
 		}
-		//Depending on the level change the untilWhat and levelSushi values
+		//Depending on the level change the untilWhat values
 		switch(level){
 			case 1:
 				untilWhat = 4;
@@ -64,14 +62,12 @@ public class RandomSushiInfinite : MonoBehaviour {
 				break;
 			case 8:
 				untilWhat = 37;
-				levelSushi = 3;
 				break;
 			case 9:
 				untilWhat = 42;
 				break;
 			case 10:
 				untilWhat = 45;
-				levelSushi = 3;
 				break;
 			case 11:
 				untilWhat = 50;
@@ -91,31 +87,24 @@ public class RandomSushiInfinite : MonoBehaviour {
 		////////////// With composed ones ///////////////
 			case 16:
 				untilWhat = 76;
-				levelSushi = 6;
 				break;
 			case 17:
 				untilWhat = 82;
-				levelSushi = 6;
 				break;
 			case 18:
 				untilWhat = 88;
-				levelSushi = 6;
 				break;
 			case 19:
 				untilWhat = 94;
-				levelSushi = 6;
 				break;
 			case 20:
 				untilWhat = 97;
-				levelSushi = 3;
 				break;
 			case 21:
 				untilWhat = 100;
-				levelSushi = 3;
 				break;
 			case 22:
 				untilWhat = 103;
-				levelSushi = 3;
 				break;
 		}
 

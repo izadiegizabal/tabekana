@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour {
 
     public void ButtonMenu()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("GameLevelChooser");
+		SceneManager.LoadSceneAsync("GameLevelChooser");
         //SceneManager.LoadScene("GameLevelChooser");
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
@@ -27,7 +27,7 @@ public class GameOver : MonoBehaviour {
 
     public void ButtonRepeat()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+		SceneManager.LoadSceneAsync("LevelStaging");
         //SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
@@ -54,12 +54,12 @@ public class GameOver : MonoBehaviour {
 
         if (lvlnum < 16)
         {
-			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo1");
+			SceneManager.LoadSceneAsync("LevelInfo1");
             //SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
         }
         else
         {
-			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo");
+			SceneManager.LoadSceneAsync("LevelInfo");
             //SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
         }
 		gameObject.AddComponent <AudioSource>();

@@ -33,7 +33,7 @@ public class ButonLevel : MonoBehaviour {
 			//Hiragana
 			if (PlayerPrefs.GetInt ("levelhira")+1 > d) {
 				GlobalVariables.actGameLvl = level;
-				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+				SceneManager.LoadSceneAsync("LevelStaging");
 				//SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 
 			}
@@ -48,7 +48,7 @@ public class ButonLevel : MonoBehaviour {
 			//Hiragana
 			if (PlayerPrefs.GetInt ("levelkata")+1 > d) {
 				GlobalVariables.actGameLvl = level;
-				AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+				SceneManager.LoadSceneAsync("LevelStaging");
 				//SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 
 			}

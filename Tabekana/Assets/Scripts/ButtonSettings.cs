@@ -40,7 +40,7 @@ public class ButtonSettings : MonoBehaviour {
 
     public void ButtonMenu()
     {
-		AsyncOperation ao = SceneManager.LoadSceneAsync("GameLevelChooser");
+		SceneManager.LoadSceneAsync("GameLevelChooser");
         //SceneManager.LoadScene("GameLevelChooser");
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
@@ -62,7 +62,7 @@ public class ButtonSettings : MonoBehaviour {
         lvlnum = int.Parse(GlobalVariables.actGameLvl.Split(new[] { " " }, System.StringSplitOptions.None)[1]);
         lvlnum = lvlnum + 1;
         GlobalVariables.actGameLvl = lvltipe + lvlnum;
-		AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+		SceneManager.LoadSceneAsync("LevelStaging");
         //SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
@@ -71,7 +71,7 @@ public class ButtonSettings : MonoBehaviour {
     }
 
     public void ButtonRepeat(){
-		AsyncOperation ao = SceneManager.LoadSceneAsync("LevelStaging");
+		SceneManager.LoadSceneAsync("LevelStaging");
         //SceneManager.LoadScene("LevelStaging", LoadSceneMode.Single);
 		gameObject.AddComponent <AudioSource>();
 		GetComponent<AudioSource> ().clip = Resources.Load ("button_click") as AudioClip;
@@ -97,10 +97,10 @@ public class ButtonSettings : MonoBehaviour {
         GlobalVariables.actLearnLvl = lvltipe + lvlnum;
 
         if (lvlnum < 16) {
-			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo1");
+			SceneManager.LoadSceneAsync("LevelInfo1");
             //SceneManager.LoadScene("LevelInfo1", LoadSceneMode.Single);
         }else{
-			AsyncOperation ao = SceneManager.LoadSceneAsync("LevelInfo");
+			SceneManager.LoadSceneAsync("LevelInfo");
             //SceneManager.LoadScene("LevelInfo", LoadSceneMode.Single);
         }
 		gameObject.AddComponent <AudioSource>();
