@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 500d35ad82a4649a3a46216d09f8a679
+timeCreated: 1481934455
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Katakana_digraphs_0
+    21300002: Katakana_digraphs_1
+    21300004: Katakana_digraphs_2
+    21300006: Katakana_digraphs_3
+    21300008: Katakana_digraphs_4
+    21300010: Katakana_digraphs_5
+    21300012: Katakana_digraphs_6
+    21300014: Katakana_digraphs_7
+    21300016: Katakana_digraphs_8
+    21300018: Katakana_digraphs_9
+    21300020: Katakana_digraphs_10
+    21300022: Katakana_digraphs_11
+    21300024: Katakana_digraphs_12
+    21300026: Katakana_digraphs_13
+    21300028: Katakana_digraphs_14
+    21300030: Katakana_digraphs_15
+    21300032: Katakana_digraphs_16
+    21300034: Katakana_digraphs_17
+    21300036: Katakana_digraphs_18
+    21300038: Katakana_digraphs_19
+    21300040: Katakana_digraphs_20
+    21300042: Katakana_digraphs_21
+    21300044: Katakana_digraphs_22
+    21300046: Katakana_digraphs_23
+    21300048: Katakana_digraphs_24
+    21300050: Katakana_digraphs_25
+    21300052: Katakana_digraphs_26
+    21300054: Katakana_digraphs_27
+    21300056: Katakana_digraphs_28
+    21300058: Katakana_digraphs_29
+    21300060: Katakana_digraphs_30
+    21300062: Katakana_digraphs_31
+    21300064: Katakana_digraphs_32
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Katakana_digraphs_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 476
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 476
+        width: 159
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 476
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 474
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_4
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 474
+        width: 159
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_5
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 474
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 184
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 382
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 380
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 382
+        width: 184
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_10
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 382
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 380
+        width: 157
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 284
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 284
+        width: 159
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 284
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_15
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 283
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 283
+        width: 158
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 283
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 185
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 189
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 191
+        width: 184
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 191
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 189
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 95
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 95
+        width: 159
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 95
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_27
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 93
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_28
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 93
+        width: 158
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_29
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 93
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 185
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana_digraphs_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 156
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
