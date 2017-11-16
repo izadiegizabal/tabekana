@@ -1,9 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{35C9BF44-72D1-600A-D248-DAEE6980E88E}") = "Tabekana", "Assembly-CSharp.csproj", "{20E2F1A8-3344-657C-A434-6F71FE8DF0EB}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabekana", "Assembly-CSharp.csproj", "{20E2F1A8-3344-657C-A434-6F71FE8DF0EB}"
 EndProject
-Project("{35C9BF44-72D1-600A-D248-DAEE6980E88E}") = "Tabekana", "Assembly-CSharp-Editor.csproj", "{1F13E773-0CFC-836E-4589-C648D03A2029}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabekana", "Assembly-CSharp-Editor.csproj", "{1F13E773-0CFC-836E-4589-C648D03A2029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

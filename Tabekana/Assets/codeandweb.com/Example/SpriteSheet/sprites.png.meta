@@ -30,6 +30,7 @@ TextureImporter:
     21300050: walk-0014
     21300052: walk-0015
     21300054: walk-0016
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -38,6 +39,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -53,10 +56,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -78,6 +84,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -99,6 +106,7 @@ TextureImporter:
       pivot: {x: 0.5, y: -0.03215434}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0002
@@ -112,6 +120,7 @@ TextureImporter:
       pivot: {x: 0.5, y: -0.03215434}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0003
@@ -125,6 +134,7 @@ TextureImporter:
       pivot: {x: 0.490625, y: -0.05448718}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0004
@@ -138,6 +148,7 @@ TextureImporter:
       pivot: {x: 0.490625, y: -0.05448718}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0005
@@ -151,6 +162,7 @@ TextureImporter:
       pivot: {x: 0.58270675, y: -0.0477707}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0006
@@ -164,6 +176,7 @@ TextureImporter:
       pivot: {x: 0.58270675, y: -0.0477707}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0007
@@ -177,6 +190,7 @@ TextureImporter:
       pivot: {x: 0.7137681, y: -0.04113924}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0008
@@ -190,6 +204,7 @@ TextureImporter:
       pivot: {x: 0.7137681, y: -0.04113924}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0009
@@ -203,6 +218,7 @@ TextureImporter:
       pivot: {x: 0.7107143, y: -0.04276316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0010
@@ -216,6 +232,7 @@ TextureImporter:
       pivot: {x: 0.7107143, y: -0.04276316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0011
@@ -229,6 +246,7 @@ TextureImporter:
       pivot: {x: 0.66346157, y: -0.044728436}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: turn-0012
@@ -242,6 +260,7 @@ TextureImporter:
       pivot: {x: 0.66346157, y: -0.044728436}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0001
@@ -255,6 +274,7 @@ TextureImporter:
       pivot: {x: 0.4939394, y: -0.009375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0002
@@ -268,6 +288,7 @@ TextureImporter:
       pivot: {x: 0.4939394, y: -0.009375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0003
@@ -281,6 +302,7 @@ TextureImporter:
       pivot: {x: 0.55, y: -0.01923077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0004
@@ -294,6 +316,7 @@ TextureImporter:
       pivot: {x: 0.55, y: -0.01923077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0005
@@ -307,6 +330,7 @@ TextureImporter:
       pivot: {x: 0.42638037, y: -0.048543688}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0006
@@ -320,6 +344,7 @@ TextureImporter:
       pivot: {x: 0.42638037, y: -0.048543688}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0007
@@ -333,6 +358,7 @@ TextureImporter:
       pivot: {x: 0.3784722, y: -0.041800644}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0008
@@ -346,6 +372,7 @@ TextureImporter:
       pivot: {x: 0.3784722, y: -0.041800644}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0009
@@ -359,6 +386,7 @@ TextureImporter:
       pivot: {x: 0.4432624, y: -0.022151899}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0010
@@ -372,6 +400,7 @@ TextureImporter:
       pivot: {x: 0.4432624, y: -0.022151899}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0011
@@ -385,6 +414,7 @@ TextureImporter:
       pivot: {x: 0.46917808, y: -0.00625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0012
@@ -398,6 +428,7 @@ TextureImporter:
       pivot: {x: 0.46917808, y: -0.00625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0013
@@ -411,6 +442,7 @@ TextureImporter:
       pivot: {x: 0.40822786, y: -0.009345794}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0014
@@ -424,6 +456,7 @@ TextureImporter:
       pivot: {x: 0.40822786, y: -0.009345794}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0015
@@ -437,6 +470,7 @@ TextureImporter:
       pivot: {x: 0.45757577, y: -0.0062111802}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     - serializedVersion: 2
       name: walk-0016
@@ -450,8 +484,10 @@ TextureImporter:
       pivot: {x: 0.45757577, y: -0.0062111802}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

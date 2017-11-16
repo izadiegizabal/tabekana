@@ -651,7 +651,7 @@ namespace MaterialUI
 
                 GameObject tempButton = Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>(path));
 
-                GameObject newShadow = tempButton.transform.FindChild("Shadows").gameObject;
+                GameObject newShadow = tempButton.transform.Find("Shadows").gameObject;
 
                 m_ShadowsCanvasGroup = newShadow.GetComponent<CanvasGroup>();
 
