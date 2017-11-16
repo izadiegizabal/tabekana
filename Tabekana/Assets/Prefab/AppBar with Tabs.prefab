@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MatchOrientationToScreen: 1
   m_ScaleFactor: 1
-  m_LastResolution: {x: 297, y: 594}
+  m_LastResolution: {x: 640, y: 480}
 --- !u!114 &114000012633603666
 MonoBehaviour:
   m_ObjectHideFlags: 1
